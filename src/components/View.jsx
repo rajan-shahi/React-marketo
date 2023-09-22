@@ -11,8 +11,8 @@ import Feat1 from "../assets/feature1-min-1.jpg";
 import Feat2 from "../assets/feature2-min-1.jpg";
 const View = () => {
   return (
-    <div className=" flex flex-col items-center justify-center py-10">
-      <div className=" flex justify-center items-center h-[50vh] w-10/12  bg-[#ELCBD7] px-10">
+    <div className=" flex flex-col items-center justify-center pt-20 py-10">
+      <div className=" flex justify-center items-center h-[50vh] md:w-10/12 w-full  bg-[#ELCBD7] md:px-10">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -30,12 +30,12 @@ const View = () => {
           <div>
             {views.map((view, index) => (
               <SwiperSlide>
-                <div key={index} className=" flex   items-center  px-20 py-20">
+                <div key={index} className=" md:flex   items-center px-10  md:px-20 py-20">
                   <div className=" flex flex-col gap-2">
                     <h1 className=" text-xl text-orange-700">{view.name}</h1>
-                    <h2 className=" text-6xl  text-black py-2">{view.model}</h2>
+                    <h2 className=" text-4xl md:text-6xl  text-black py-2">{view.model}</h2>
                     <p className=" text-gray-900 py-3">{view.desc}</p>
-                    <button className=" flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
+                    <button className="  flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
                       {view.button}
                     </button>
                   </div>
@@ -48,7 +48,7 @@ const View = () => {
           </div>
         </Swiper>
       </div>
-      <div className=" flex  py-20 gap-6">
+      <div className=" grid md:grid-cols-2  py-20 md:px-0 px-4 gap-6">
         <div>
           <img src={Feat1} alt="" />
         </div>

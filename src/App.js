@@ -5,7 +5,7 @@ import View from "./components/View";
 
 function App() {
   return (
-    <div className="App">
+    <div className=" overflow-x-hidden">
       <Navbar />
       <View />
       <Products/>

@@ -11,15 +11,15 @@ import { FiHeadphones } from "react-icons/fi";
 const Products = () => {
   return (
     <div className=" flex  py-10 justify-center ">
-      <div className=" flex px-8 flex-col gap-3 w-10/12">
+      <div className=" flex  px-4 md:px-8 flex-col gap-3 w-full md:w-10/12">
         <div>
           <h1 className=" text-3xl">Most Popular Products</h1>
         </div>
-        <div className=" flex gap-4 ">
+        <div className=" md:flex  gap-4 ">
           {shows.map((show, index) => (
             <div
               key={index}
-              className=" flex flex-col gap-1 border-2  border-gray-100 px-6 py-8"
+              className=" flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
             >
               <div className=" cursor-pointer">
                 <img src={show.image} alt="" />
@@ -41,49 +41,51 @@ const Products = () => {
             </div>
           ))}
         </div>
-        <div className=" flex  py-8">
-          <div className=" flex gap-4 justify-center items-center  border-2 border-r-0 border-gray-200 px-10 py-4">
-            <span>
+        <div className=" md:flex  py-8">
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+            <span className="  flex justify-center ">
               <FaCarSide size={30} />
             </span>
-            <div className=" flex flex-col">
-              <h1 className=" text-lg text-black">Free Delivery</h1>
+            <div className=" justify-center items-center flex flex-col">
+              <h1 className=" md:text-lg  text-2xl text-black">
+                Free Delivery
+              </h1>
               <h2 className=" text-sm text-gray-600">From $78</h2>
             </div>
           </div>
-          <div className=" flex gap-4 justify-center items-center  border-2  border-r-0 border-gray-200 px-10 py-4">
-            <span>
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+            <span className="  flex justify-center ">
               <BsFillPeopleFill size={30} />
             </span>
-            <div className=" flex flex-col">
-              <h1 className=" text-lg text-black">99% Customer</h1>
+            <div className=" justify-center items-center flex flex-col">
+              <h1 className=" md:text-lg  text-2xl text-black">99% Customer</h1>
               <h2 className=" text-sm text-gray-600">Feedback</h2>
             </div>
           </div>
-          <div className=" flex gap-4 justify-center items-center  border-2  border-r-0 border-gray-200 px-10 py-4">
-            <span>
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+            <span className="  flex justify-center ">
               <BsArrow90DegDown size={30} />
             </span>
-            <div className=" flex flex-col">
-              <h1 className=" text-lg text-black">10 Days</h1>
+            <div className=" justify-center items-center flex flex-col">
+              <h1 className=" md:text-lg  text-2xl text-black">10 Days</h1>
               <h2 className=" text-sm text-gray-600">for free return</h2>
             </div>
           </div>
-          <div className=" flex gap-4 justify-center items-center  border-2  border-r-0 border-gray-200 px-10 py-4">
-            <span>
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2    md:border-r-0 md:border-b-2 border-b-0 border-gray-100 px-10 md:py-4 py-10">
+            <span className="  flex justify-center ">
               <RiSecurePaymentFill size={30} />
             </span>
-            <div className=" flex flex-col">
-              <h2 className=" text-lg text-black">Payments</h2>
+            <div className=" justify-center items-center flex flex-col">
+              <h2 className=" md:text-lg  text-2xl text-black">Payments</h2>
               <h2 className=" text-sm text-gray-600">secure system</h2>
             </div>
           </div>
-          <div className=" flex gap-4 justify-center items-center  border-2 border-gray-200 px-10 py-4">
-            <span>
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2  border-gray-100 px-10 md:py-4 py-10">
+            <span className="  flex justify-center ">
               <FiHeadphones size={30} />
             </span>
-            <div className=" flex flex-col">
-              <h1 className=" text-lg text-black">24/7</h1>
+            <div className=" justify-center items-center flex flex-col">
+              <h1 className=" md:text-lg  text-2xl text-black">24/7</h1>
               <p className=" text-sm text-gray-600">online supports</p>
             </div>
           </div>
