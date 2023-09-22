@@ -1,0 +1,87 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import red from "../assets/red_shoe-min-1-1.png";
+import blue from "../assets/blue_shoe-min.png";
+import yellow from "../assets/yellow-shoe.png";
+import Feat1 from "../assets/feature1-min-1.jpg";
+import Feat2 from "../assets/feature2-min-1.jpg";
+const View = () => {
+  return (
+    <div className=" flex flex-col items-center justify-center py-10">
+      <div className=" flex justify-center items-center h-[50vh] w-10/12  bg-[#ELCBD7]px-10">
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <div>
+            {views.map((view, index) => (
+              <SwiperSlide>
+                <div key={index} className=" flex   items-center  px-20 py-20">
+                  <div className=" flex flex-col gap-4">
+                    <h1 className=" text-xl text-orange-700">{view.name}</h1>
+                    <h2 className=" text-6xl  text-black py-3">{view.model}</h2>
+                    <p className=" text-gray-900 py-3">{view.desc}</p>
+                    <button className=" flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
+                      {view.button}
+                    </button>
+                  </div>
+                  <div className=" cursor-pointer">
+                    <img src={view.image} alt="" />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </div>
+        </Swiper>
+      </div>
+      <div className=" flex  py-20 gap-6">
+        <div>
+          <img src={Feat1} alt="" />
+        </div>
+        <div>
+          <img src={Feat2} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default View;
+
+const views = [
+  {
+    image: red,
+    name: "Our exclusive",
+    model: "Addidas Campus",
+    desc: "we have all your auto parts neend!Are you looking for the best perfomances car parts and car accessories",
+    button: "VIEW COLLECTIONS",
+  },
+  {
+    image: blue,
+    name: "Our exclusive",
+    model: "Addidas Campus",
+    desc: "we have all your auto parts neend!Are you looking for the best perfomances car parts and car accessories",
+    button: "VIEW COLLECTIONS",
+  },
+  {
+    image: yellow,
+    name: "Our exclusive",
+    model: "Addidas Campus",
+    desc: "we have all your auto parts neend!Are you looking for the best perfomances car parts and car accessories",
+    button: "VIEW COLLECTIONS",
+  },
+];
