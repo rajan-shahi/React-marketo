@@ -12,7 +12,7 @@ import Feat2 from "../assets/feature2-min-1.jpg";
 const View = () => {
   return (
     <div className=" flex flex-col items-center justify-center py-10">
-      <div className=" flex justify-center items-center h-[50vh] w-10/12  bg-[#ELCBD7]px-10">
+      <div className=" flex justify-center items-center h-[50vh] w-10/12  bg-[#ELCBD7] px-10">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -31,9 +31,9 @@ const View = () => {
             {views.map((view, index) => (
               <SwiperSlide>
                 <div key={index} className=" flex   items-center  px-20 py-20">
-                  <div className=" flex flex-col gap-4">
+                  <div className=" flex flex-col gap-2">
                     <h1 className=" text-xl text-orange-700">{view.name}</h1>
-                    <h2 className=" text-6xl  text-black py-3">{view.model}</h2>
+                    <h2 className=" text-6xl  text-black py-2">{view.model}</h2>
                     <p className=" text-gray-900 py-3">{view.desc}</p>
                     <button className=" flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
                       {view.button}
