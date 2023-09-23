@@ -44,7 +44,7 @@ const Footer = () => {
           <h1>for the amount of cash payment by the customer</h1>
           <h2>17 Princess Road, London, Greater London NW1 8JR, UK</h2>
           <div className=" py-5">
-          <button className=" text-sm  bg-red-600 w-40  text-white font-bold py-4  rounded-lg hover:bg-green-400">
+          <button className=" text-sm  bg-red-600 w-40  text-white font-bold py-4  rounded-md hover:bg-green-400">
             View On Map
           </button></div>
         </div>
