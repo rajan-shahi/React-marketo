@@ -37,7 +37,7 @@ const Items = () => {
         {/* topbrands */}
         <div className=" md:py-10 md:pt-0 pt-10">
         <h1 className=" text-2xl  text-gray-700 font-bold">Top Brands</h1>
-        <span className="  grid   md:grid-cols-1 grid-cols-2 justify-between px-4 py-4 md:gap-0 gap-6">
+        <span className="  grid   grid-cols-2 md:grid-cols-5 justify-between px-4 py-4 md:gap-0 gap-6">
             <img className=" cursor-pointer" src={b1} alt="" />
             <img className=" cursor-pointer" src={b2} alt="" />
             <img className=" cursor-pointer" src={b3} alt="" />
