@@ -6,7 +6,7 @@ import Items from "./components/Items";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import View from "./components/View";
-import DicountProducr from './components/DicountProducr';
+import DicountProducr from "./components/DicountProducr";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <View />
       <Products />
+      <DicountProducr />
       <Buy />
-      <DicountProducr/>
       <Items />
       <Footer />
       <Copyright />
