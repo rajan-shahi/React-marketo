@@ -8,7 +8,7 @@ import sho5 from "../assets/sho5.jpg";
 import sho6 from "../assets/sho6.jpg";
 const DicountProducr = () => {
   return (
-    <div className=" flex justify-center pt-10 md:px-0 px-4">
+    <div className=" flex justify-center pt-10 md:pb-20 md:px-0 px-4">
       <div className=" md:flex justify-center  gap-10 w-full md:w-10/12">
         {/* left */}
         <div className=" w-full md:w-3/12">
