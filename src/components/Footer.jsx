@@ -9,30 +9,30 @@ import brazil from "../assets/brazil-1.png";
 const Footer = () => {
   return (
     <div className=" flex  flex-col bg-gray-300 justify-center">
-      <div className=" flex justify-center bg-gray-200 top-0 py-8">
-        <div>
-          <h1>Canada</h1>
+      <div className=" grid md:grid-cols-6 grid-cols-2 md:gap-0 gap-4 justify-center  bg-gray-200 top-0 py-8">
+        <div className=" md:flex justify-center items-center px-16 py-2 md:border-r-2 border-gray-400 gap-2">
           <img src={canada} alt="" />
+          <h1 className=" cursor-pointer">Canada</h1>
         </div>
-        <div>
-        <h1>Canada</h1>
+        <div className=" md:flex justify-center items-center px-16 py-2 md:border-r-2 border-gray-400 gap-2">
           <img src={uk} alt="" />
+          <h1 className=" cursor-pointer">Uk</h1>
         </div>
-        <div>
-        <h1>Canada</h1>
+        <div className=" md:flex justify-center items-center px-16 py-2  md:border-r-2 border-gray-400 gap-2">
           <img src={singapur} alt="" />
+          <h1 className=" cursor-pointer">Singapur</h1>
         </div>
-        <div>
-        <h1>Canada</h1>
+        <div className=" md:flex justify-center items-center px-16 py-2  md:border-r-2 border-gray-400 gap-2">
           <img src={usa} alt="" />
+          <h1 className=" cursor-pointer">USA</h1>
         </div>
-        <div>
-        <h1>Canada</h1>
+        <div className=" md:flex justify-center items-center px-16 py-2  md:border-r-2 border-gray-400 gap-2">
           <img src={brazil} alt="" />
+          <h1 className=" cursor-pointer">Brazil</h1>
         </div>
-        <div>
-        <h1>Canada</h1>
+        <div className=" md:flex justify-center items-center px-16 py-2 gap-2">
           <img src={saudi} alt="" />
+          <h1 className=" cursor-pointer">Saudi</h1>
         </div>
       </div>
       <div className=" grid md:grid-cols-4 gap-10  px-4 md:px-10 py-16 text-sm  text-gray-500">
