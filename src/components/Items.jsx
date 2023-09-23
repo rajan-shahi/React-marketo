@@ -19,7 +19,7 @@ const Items = () => {
               <div>
                 <img src={item.image} alt="" />
               </div>
-              <div className=" flex flex-col gap-1 justify-center">
+              <div className=" flex flex-col gap-1 justify-center md:items-start items-center">
                 <h1 className=" text-sm text-gray-600">{item.name}</h1>
                 <h2 className=" text-lg  text-gray-800 font-bold hover:text-blue-600 cursor-pointer">{item.model}</h2>
                 <h1>{item.p}</h1>
