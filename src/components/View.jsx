@@ -30,10 +30,15 @@ const View = () => {
           <div>
             {views.map((view, index) => (
               <SwiperSlide>
-                <div key={index} className=" md:flex   items-center px-10  md:px-20 py-20">
+                <div
+                  key={index}
+                  className=" md:flex   items-center px-10  md:px-20 py-20"
+                >
                   <div className=" flex flex-col gap-2">
                     <h1 className=" text-xl text-orange-700">{view.name}</h1>
-                    <h2 className=" text-4xl md:text-6xl  text-black py-2">{view.model}</h2>
+                    <h2 className=" text-4xl md:text-6xl  text-black py-2">
+                      {view.model}
+                    </h2>
                     <p className=" text-gray-900 py-3">{view.desc}</p>
                     <button className="  flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
                       {view.button}
