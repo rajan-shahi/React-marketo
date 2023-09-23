@@ -3,7 +3,7 @@ import red from "../assets/red_shoe-min-1-1.png";
 const Buy = () => {
   return (
     <div className="">
-      <div className=" flex   h-[60vh] bg-[#1D1A39]">
+      <div className=" flex    h-full md:h-[60vh] bg-[#1D1A39]">
         <div className=" md:flex justify-center items-center gap-6 md:px-20 px-4 md:pb-0 pb-20">
           <div className=" md:py-0 py-8">
             <img src={red} alt="" />
