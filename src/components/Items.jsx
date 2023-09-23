@@ -4,11 +4,17 @@ import sho1 from "../assets/sho1.jpg";
 import sho2 from "../assets/sho2.jpg";
 import sho3 from "../assets/sho3.jpg";
 import sho4 from "../assets/sho4.jpg";
+import b1 from "../assets/b1-min.png";
+import b2 from "../assets/b2-min-1.png";
+import b3 from "../assets/b3-min.png";
+import b4 from "../assets/b4-min.png";
+import b5 from "../assets/b5-min.png";
+
 const Items = () => {
   return (
     <div className=" flex justify-center">
       {/* container */}
-      <div className=" flex flex-col  md:px-0 px-4 w-full md:w-10/12 py-10">
+      <div className=" flex flex-col  md:px-0 px-4 w-full md:w-10/12 py-8">
         <div className=" text-2xl text-gray-700 font-bold py-5">
           <h1>Most Viewed Items</h1>
         </div>
@@ -28,6 +34,20 @@ const Items = () => {
             </div>
           ))}
         </div>
+        {/* topbrands */}
+        <div className=" md:py-10 md:pt-0 pt-10">
+        <h1 className=" text-2xl  text-gray-700 font-bold">Top Brands</h1>
+        <span className="  grid   md:grid-cols-1 grid-cols-2 justify-between px-4 py-4 md:gap-0 gap-6">
+            <img className=" cursor-pointer" src={b1} alt="" />
+            <img className=" cursor-pointer" src={b2} alt="" />
+            <img className=" cursor-pointer" src={b3} alt="" />
+            <img className=" cursor-pointer" src={b4} alt="" />
+            <img className=" cursor-pointer" src={b5} alt="" />
+        </span>
+        </div>
+    <div>
+        
+    </div>
       </div>
     </div>
   );
