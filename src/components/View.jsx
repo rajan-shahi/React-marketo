@@ -48,7 +48,7 @@ const View = () => {
           </div>
         </Swiper>
       </div>
-      <div className=" grid md:grid-cols-2  py-20 md:px-0 px-4 gap-6">
+      <div className=" grid gap-4 md:grid-cols-2  py-20 md:px-0 px-4  ">
         <div>
           <img src={Feat1} alt="" />
         </div>

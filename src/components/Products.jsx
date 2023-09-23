@@ -11,11 +11,11 @@ import { FiHeadphones } from "react-icons/fi";
 const Products = () => {
   return (
     <div className=" flex  py-10 justify-center ">
-      <div className=" flex  px-4 md:px-8 flex-col gap-3 w-full md:w-10/12">
+      <div className=" flex  justify-center  flex-col gap-3 w-full md:w-10/12">
         <div>
           <h1 className=" text-3xl">Most Popular Products</h1>
         </div>
-        <div className=" md:flex  gap-4 ">
+        <div className=" md:flex justify-center  gap-4 ">
           {shows.map((show, index) => (
             <div
               key={index}
@@ -41,8 +41,8 @@ const Products = () => {
             </div>
           ))}
         </div>
-        <div className=" md:flex  py-8">
-          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+        <div className=" md:flex   justify-between py-8">
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
             <span className="  flex justify-center ">
               <FaCarSide size={30} />
             </span>
@@ -53,7 +53,7 @@ const Products = () => {
               <h2 className=" text-sm text-gray-600">From $78</h2>
             </div>
           </div>
-          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
             <span className="  flex justify-center ">
               <BsFillPeopleFill size={30} />
             </span>
@@ -62,7 +62,7 @@ const Products = () => {
               <h2 className=" text-sm text-gray-600">Feedback</h2>
             </div>
           </div>
-          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-r-0 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
             <span className="  flex justify-center ">
               <BsArrow90DegDown size={30} />
             </span>
@@ -71,7 +71,7 @@ const Products = () => {
               <h2 className=" text-sm text-gray-600">for free return</h2>
             </div>
           </div>
-          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2    md:border-r-0 md:border-b-2 border-b-0 border-gray-100 px-10 md:py-4 py-10">
+          <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2    md:border-b-2 border-b-0 border-gray-100 px-10 md:py-4 py-10">
             <span className="  flex justify-center ">
               <RiSecurePaymentFill size={30} />
             </span>
