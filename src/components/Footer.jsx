@@ -9,7 +9,7 @@ import brazil from "../assets/brazil-1.png";
 const Footer = () => {
   return (
     <div className=" flex  flex-col bg-gray-300 justify-center">
-      <div className=" grid md:grid-cols-6 grid-cols-2 md:gap-0 gap-4 justify-center  bg-gray-200 top-0 py-8">
+      <div className="  grid md:grid-cols-6 grid-cols-2 md:gap-0 gap-4 justify-center  bg-gray-200 top-0 py-8">
         <div className=" md:flex justify-center items-center px-16 py-2 md:border-r-2 border-gray-400 gap-2">
           <img src={canada} alt="" />
           <h1 className=" cursor-pointer">Canada</h1>
