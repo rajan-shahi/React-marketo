@@ -72,10 +72,10 @@ const Navbar = () => {
               className={
                 !nav
                   ? "hidden"
-                  : "   md:z-0 z-40  absolute    w-full py-6   flex flex-col  rounded-md   "
+                  : "   md:z-0 z-40  absolute  bg-gray-600    py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
-              {/* <li className="  px-10  hover:text-orange-400  cursor-pointer py-4  text-4xl  text-gray-200">
+              <li className="   hover:text-orange-400  cursor-pointer py-4   text-4xl  text-gray-200">
                 {" "}
                 Home
               </li>
@@ -88,8 +88,8 @@ const Navbar = () => {
                 Blog
               </li>
               <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
-                Gallerys
-              </li> */}
+                Gallery
+              </li>
             </ul>
           </div>
         </div>
