@@ -16,7 +16,7 @@ const Buy = () => {
               <p className=" text-2xl text-white py-4">$340.000</p>
             </div>
             <div className="  grid md:grid-cols-2 grid-cols-1 md:gap-5 gap-6">
-              <button className="  bg-red-700 px-7 py-3    text-white  hover:bg-orange-400  font-bold">
+              <button className="   bg-red-700 px-7 py-3  text-white  hover:bg-orange-400  font-bold">
                 Buy Now
               </button>
               <button className="  bg-black px-7 py-3  text-white  font-bold border-2 border-white hover:border-orange-400">

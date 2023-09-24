@@ -16,15 +16,15 @@ const Navbar = () => {
         {/* right */}
         <div className=" md:flex  hidden gap-10">
           <div className=" flex gap-1 items-center">
-            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Home
             </h1>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer ">
               <BsChevronDown />
             </span>
           </div>
           <div className=" flex gap-1 items-center">
-            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">
+            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Shop
             </h2>
             <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className=" flex gap-1 items-center">
-            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">
+            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Pages
             </h2>
             <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
@@ -40,7 +40,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className=" flex gap-1 items-center">
-            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Blog
             </h1>
             <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
@@ -48,7 +48,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className=" flex gap-1 items-center">
-            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Gallerys
             </h1>
             <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">

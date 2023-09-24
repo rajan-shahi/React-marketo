@@ -43,7 +43,7 @@ const Products = () => {
         </div>
         <div className=" md:flex   justify-between py-8">
           <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
-            <span className="  flex justify-center ">
+            <span className="  flex justify-center text-red-600 font-bold ">
               <FaCarSide size={30} />
             </span>
             <div className=" justify-center items-center flex flex-col">
@@ -54,7 +54,7 @@ const Products = () => {
             </div>
           </div>
           <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
-            <span className="  flex justify-center ">
+            <span className="  flex justify-center text-red-600 font-bold ">
               <BsFillPeopleFill size={30} />
             </span>
             <div className=" justify-center items-center flex flex-col">
@@ -63,7 +63,7 @@ const Products = () => {
             </div>
           </div>
           <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2 md:border-b-2 border-b-0  border-gray-100 px-10 md:py-4 py-10">
-            <span className="  flex justify-center ">
+            <span className="  flex justify-center text-red-600 font-bold ">
               <BsArrow90DegDown size={30} />
             </span>
             <div className=" justify-center items-center flex flex-col">
@@ -72,7 +72,7 @@ const Products = () => {
             </div>
           </div>
           <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2    md:border-b-2 border-b-0 border-gray-100 px-10 md:py-4 py-10">
-            <span className="  flex justify-center ">
+            <span className="  flex justify-center text-red-600 font-bold">
               <RiSecurePaymentFill size={30} />
             </span>
             <div className=" justify-center items-center flex flex-col">
@@ -81,7 +81,7 @@ const Products = () => {
             </div>
           </div>
           <div className=" md:flex md:gap-4  gap-10 justify-center items-center  border-2  border-gray-100 px-10 md:py-4 py-10">
-            <span className="  flex justify-center ">
+            <span className="  flex justify-center text-red-600 font-bold">
               <FiHeadphones size={30} />
             </span>
             <div className=" justify-center items-center flex flex-col">
