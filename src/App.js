@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import View from "./components/View";
 import DicountProducr from "./components/DicountProducr";
+import PopularsProduct from "./components/PopularsProduct";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <DicountProducr />
       <Buy />
       <Items />
+      <PopularsProduct/>
       <Footer />
       <Copyright />
     </div>

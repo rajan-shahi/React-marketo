@@ -23,7 +23,7 @@ const Items = () => {
           {items.map((item, index) => (
             <div key={index} className=" border flex flex-col justify-center px-6 py-6 pb-10 rounded  hover:shadow-md hover:shadow-slate-300 ">
               <div>
-                <img src={item.image} alt="" />
+                <img className=" cursor-pointer" src={item.image} alt="" />
               </div>
               <div className=" flex flex-col gap-1 justify-center md:items-start items-center">
                 <h1 className=" text-sm text-gray-600">{item.name}</h1>
