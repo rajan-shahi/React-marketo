@@ -12,7 +12,7 @@ const DicountProducr = () => {
       <div className=" md:flex justify-center  gap-10 w-full md:w-10/12">
         {/* left */}
         <div className=" w-full md:w-3/12">
-          <img  className="  w-full" src={admin} alt="" />
+          <img  className="  w-full  md:pb-0 pb-6" src={admin} alt="" />
         </div>
         {/* right */}
         <div className=" flex flex-col w-full md:w-7/12">
