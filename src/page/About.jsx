@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className=" md:flex   justify-center  md:py-10 py-8">
+    <div className=" md:flex   justify-center  md:py-10 py-4">
       <div className=" w-full md:w-max shadow-lg  shadow-slate-300 grid md:grid-cols-5  grid-cols-2 gap-4 border px-10  md:py-24 py-12">
         {homes.map((home, index) => (
           <div
