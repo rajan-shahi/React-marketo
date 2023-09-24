@@ -8,10 +8,10 @@ import sho5 from "../assets/sho5.jpg";
 import sho6 from "../assets/sho6.jpg";
 const PopularsProduct = () => {
   return (
-    <div className=" flex justify-center  pb-20">
-      <div className=" flex justify-between w-10/12">
+    <div className=" md:px-0 px-4 flex justify-center  pb-20">
+      <div className="  md:flex justify-between  w-full md:w-10/12">
         {/* popular product */}
-        <div className=" flex flex-col   w-3/12 ">
+        <div className=" flex flex-col  w-full  md:w-3/12 md:pt-0 pt-10 ">
           <div className=" flex border-b pb-4 justify-between items-center">
             <h1 className=" text-2xl font-bold text-gray-700">Most Popular</h1>
             <span className=" cursor-pointer hover:text-blue-600 text-gray-500">
@@ -34,7 +34,7 @@ const PopularsProduct = () => {
         </div>
         
         {/* recent product */}
-        <div className=" flex flex-col w-3/12 ">
+        <div className=" flex flex-col w-full md:w-3/12 md:pt-0  pt-14 ">
           <div className=" flex border-b pb-4 justify-between items-center">
             <h1 className=" text-2xl font-bold text-gray-700">
               Recent Product
@@ -58,7 +58,7 @@ const PopularsProduct = () => {
           </div>
         </div>
         {/* selling product */}
-        <div className=" flex flex-col w-3/12  ">
+        <div className=" flex flex-col w-full md:w-3/12   md:pt-0 pt-14">
           <div className=" flex justify-between border-b pb-4 items-center">
             <h1 className=" text-2xl font-bold text-gray-700">Most Selling</h1>
             <span className=" cursor-pointer hover:text-blue-600 text-gray-500">
