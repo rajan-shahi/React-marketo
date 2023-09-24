@@ -18,7 +18,7 @@ const PopularsProduct = () => {
               <RiExpandLeftRightLine size={50} />
             </span>
           </div>
-          <div className=" pt-4">
+          <div className=" flex flex-col gap-8 pt-4">
             {populars.map((popular,index)=>(
                 <div key={index} className=" flex  gap-3 items-center">
                     <div>
@@ -43,7 +43,7 @@ const PopularsProduct = () => {
               <RiExpandLeftRightLine size={50} />
             </span>
           </div>
-          <div className=" pt-4">
+          <div className=" flex flex-col gap-8 pt-4">
             {recents.map((recent,index)=>(
                 <div key={index} className=" flex  gap-3 items-center">
                     <div>
@@ -65,7 +65,7 @@ const PopularsProduct = () => {
               <RiExpandLeftRightLine size={50} />
             </span>
           </div>
-          <div className=" pt-4">
+          <div className="flex flex-col gap-8 pt-4">
             {sellings.map((selling,index)=>(
                 <div key={index} className=" flex  gap-3 items-center">
                     <div>
