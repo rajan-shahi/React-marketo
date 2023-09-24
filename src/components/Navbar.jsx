@@ -3,6 +3,7 @@ import logo from "../assets/logo-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNev] = useState(false);
   const handleClick = () => setNev(!nav);
@@ -15,19 +16,21 @@ const Navbar = () => {
         </div>
         {/* right */}
         <div className=" md:flex  hidden gap-10">
-          <div className=" flex gap-1 items-center">
-            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
-              Home
-            </h1>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer ">
-              <BsChevronDown />
-            </span>
-          </div>
+          <Link to={"/about"}>
+            <div className=" flex gap-1 items-center">
+              <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
+                Home
+              </h1>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer hover:text-orange-400 ">
+                <BsChevronDown />
+              </span>
+            </div>{" "}
+          </Link>
           <div className=" flex gap-1 items-center">
             <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Shop
             </h2>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
               <BsChevronDown />
             </span>
           </div>
@@ -35,7 +38,7 @@ const Navbar = () => {
             <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Pages
             </h2>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
               <BsChevronDown />
             </span>
           </div>
@@ -43,7 +46,7 @@ const Navbar = () => {
             <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Blog
             </h1>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
               <BsChevronDown />
             </span>
           </div>
@@ -51,7 +54,7 @@ const Navbar = () => {
             <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Gallerys
             </h1>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
               <BsChevronDown />
             </span>
           </div>
@@ -75,12 +78,16 @@ const Navbar = () => {
                   : "   md:z-0 z-40  absolute  bg-gray-600    py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
-              <li className="   hover:text-orange-400  cursor-pointer py-4   text-4xl  text-gray-200">
+              <Link to={"/about"}>
+                <li className="   hover:text-orange-400  cursor-pointer py-4   text-4xl  text-gray-200">
+                  Home
+                </li>
+              </Link>
+              <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
                 {" "}
-                Home
+                Pages
               </li>
-              <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">    Pages</li>
-          
+
               <li className="   hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
                 Shop
               </li>
