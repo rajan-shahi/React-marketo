@@ -1,26 +1,9 @@
 import "./App.css";
-import Buy from "./components/Buy";
-import Copyright from "./components/Copyright";
-import Footer from "./components/Footer";
-import Items from "./components/Items";
-import Navbar from "./components/Navbar";
-import Products from "./components/Products";
-import View from "./components/View";
-import DicountProducr from "./components/DicountProducr";
-import PopularsProduct from "./components/PopularsProduct";
-
+import Home from "./page/Home";
 function App() {
   return (
     <div className=" overflow-x-hidden">
-      <Navbar />
-      <View />
-      <Products />
-      <DicountProducr />
-      <Buy />
-      <Items />
-      <PopularsProduct/>
-      <Footer />
-      <Copyright />
+     <Home/>
     </div>
   );
 }
