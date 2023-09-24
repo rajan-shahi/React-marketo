@@ -20,7 +20,7 @@ const About = () => {
         <Link to={"/"}>
           <button className=" border px-5 py-2  bg-green-500 text-white font-bold rounded-lg hover:bg-orange-400">
             {" "}
-            next page
+            Home page
           </button>
         </Link>
         <span className=" flex items-center text-gray-600">
