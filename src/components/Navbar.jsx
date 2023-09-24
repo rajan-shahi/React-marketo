@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import { BsChevronDown } from "react-icons/bs";
 const Navbar = () => {
   const [nav, setNev] = useState(false);
   const handleClick = () => setNev(!nav);
@@ -14,11 +15,46 @@ const Navbar = () => {
         </div>
         {/* right */}
         <div className=" md:flex  hidden gap-10">
-          <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">Home</h1>
-          <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">Shop</h2>
-          <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">Pages</h2>
-          <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">Blog</h1>
-          <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">Gallerys</h1>
+          <div className=" flex gap-1 items-center">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+              Home
+            </h1>
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+              <BsChevronDown />
+            </span>
+          </div>
+          <div className=" flex gap-1 items-center">
+            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">
+              Shop
+            </h2>
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+              <BsChevronDown />
+            </span>
+          </div>
+          <div className=" flex gap-1 items-center">
+            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer">
+              Pages
+            </h2>
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+              <BsChevronDown />
+            </span>
+          </div>
+          <div className=" flex gap-1 items-center">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+              Blog
+            </h1>
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+              <BsChevronDown />
+            </span>
+          </div>
+          <div className=" flex gap-1 items-center">
+            <h1 className=" text-sm font-bold text-gray-600 cursor-pointer">
+              Gallerys
+            </h1>
+            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer">
+              <BsChevronDown />
+            </span>
+          </div>
         </div>
         {/* mobile menu */}
         <div className=" flex  flex-col md:hidden">
