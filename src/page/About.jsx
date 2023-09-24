@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className=" flex justify-center  md:py-10">
+    <div className=" md:flex   justify-center  md:py-10">
       <div className=" w-full md:w-max shadow-lg  shadow-slate-300 grid md:grid-cols-5  grid-cols-2 gap-4 border px-10  py-24">
         {homes.map((home, index) => (
           <div
@@ -16,7 +16,7 @@ const About = () => {
         ))}
       </div>
 
-      <div className="   flex items-center    md:mr-[-900px]   pt-8 md:pt-80 absolute ">
+      <div className="   flex items-center    md:mr-[-900px]   pt-8 md:pt-80 md:absolute   justify-end  md:px-0 px-6 ">
         <Link to={"/"}>
           <button className=" border px-5 py-2  bg-green-500 text-white font-bold rounded-lg hover:bg-orange-400">
             {" "}
