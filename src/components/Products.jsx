@@ -13,7 +13,7 @@ const Products = () => {
     <div className=" flex  md:py-10 justify-center ">
       <div className=" flex  md:px-0 px-4 justify-center  flex-col gap-3 w-full md:w-10/12">
         <div className=" flex   pb-4">
-          <h1 className=" text-3xl">Most Popular Products</h1>
+          <h1 className=" text-2xl text-gray-700 font-bold">Most Popular Products</h1>
         </div>
         <div className=" md:flex justify-center  gap-4 ">
           {shows.map((show, index) => (
