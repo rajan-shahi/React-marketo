@@ -20,7 +20,7 @@ const PopularsProduct = () => {
           </div>
           <div className=" flex flex-col gap-8 pt-4">
             {populars.map((popular,index)=>(
-                <div key={index} className=" flex  gap-3 items-center">
+                <div key={index} className="  flex  gap-3 items-center">
                     <div>
                         <img className=" h-16  cursor-pointer" src={popular.image} alt="" />
                     </div>

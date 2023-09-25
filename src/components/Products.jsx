@@ -19,7 +19,7 @@ const Products = () => {
           {shows.map((show, index) => (
             <div
               key={index}
-              className=" flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
+              className="  hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
             >
               <div className=" cursor-pointer">
                 <img src={show.image} alt="" />
