@@ -16,17 +16,17 @@ const DicountProducr = () => {
             <div className=" text-2xl text-gray-700 md:py-0 py-3 md:pt-0 pt-6 font-bold">
               <h1>Discount Product</h1>
             </div>
-            <div className=" flex md:gap-8 justify-between text-xl text-gray-500">
-              <h2  onClick={()=> setList(discounts40)} className=" cursor-pointer  hover:text-orange-500">
+            <div className=" flex md:gap-8 justify-between text-lg text-gray-500">
+              <h2  onClick={()=> setList(discounts40)} className=" cursor-pointer font-bold  hover:text-red-700 ">
                 40% Off
               </h2>
-              <h2   onClick={()=> setList(discounts57)}  className=" cursor-pointer  hover:text-orange-500">
+              <h2   onClick={()=> setList(discounts57)}  className=" cursor-pointer  font-bold  hover:text-red-700 ">
                 57% Off
               </h2>
-              <h3  onClick={()=> setList(discounts75)} className=" cursor-pointer  hover:text-orange-500">
+              <h3  onClick={()=> setList(discounts75)} className=" cursor-pointer  font-bold  hover:text-red-700 ">
                 75% Off
               </h3>
-              <h2  onClick={()=> setList(discounts83)} className=" cursor-pointer  hover:text-orange-500">
+              <h2  onClick={()=> setList(discounts83)} className=" cursor-pointer  font-bold  hover:text-red-700 ">
                 83% Off
               </h2>
             </div>
@@ -44,7 +44,7 @@ const DicountProducr = () => {
                 <div className=" flex flex-col gap-1  items-center">
                   <h2 className=" text-gray-800   font-bold hover:text-blue-600 cursor-pointer">{discounts40.model}</h2>
                   <h2>{discounts40.p}</h2>
-                  <p className=" text-orange-400 text-lg">{discounts40.price}</p>
+                  <p className=" text-orange-700  font-bold text-lg">{discounts40.price}</p>
                 </div>
               </div>
             ))}

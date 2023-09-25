@@ -36,7 +36,7 @@ const Products = () => {
                 <h1>{show.p}</h1>
               </div>
               <div>
-                <p className=" text-2xl text-orange-400">{show.price}</p>
+                <p className=" text-xl text-orange-700  font-bold">{show.price}</p>
               </div>
             </div>
           ))}
@@ -103,27 +103,27 @@ const shows = [
     name: "Head Phones",
     model: "Notebook Blgscreen Z51-70",
     p: "70",
-    price: "&42012.00",
+    price: "$42012.00",
   },
   {
     image: sho2,
     name: "Mobile Projector",
     model: "Notebook Blgscreen Z51-70",
     p: "70 40k60",
-    price: "&49449.00",
+    price: "$49449.00",
   },
   {
     image: sho3,
     name: "Further Products",
     model: "Notebook Blgscreen Z51-70",
     p: "70k6",
-    price: "&102362.00",
+    price: "$102362.00",
   },
   {
     image: sho4,
     name: "Featured Product Laptop",
     model: "Notebook Blgscreen Z51-70",
     p: "40k45",
-    price: "&10,000.00",
+    price: "$10,000.00",
   },
 ];

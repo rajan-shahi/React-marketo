@@ -29,7 +29,7 @@ const Items = () => {
                 <h1 className=" text-sm text-gray-600">{item.name}</h1>
                 <h2 className=" text-lg  text-gray-800 font-bold hover:text-blue-600 cursor-pointer">{item.model}</h2>
                 <h1>{item.p}</h1>
-                <p className=" text-orange-600 text-lg">{item.price}</p>
+                <p className=" text-orange-700  font-bold text-lg">{item.price}</p>
               </div>
             </div>
           ))}
@@ -61,27 +61,27 @@ const items = [
     name: "Head Phones",
     model: "Notebook Blgscreen Z51-70",
     p: "70",
-    price: "&42012.00",
+    price: "$42012.00",
   },
   {
     image: sho2,
     name: "Mobile Projector",
     model: "Notebook Blgscreen Z51-70",
     p: "70 40k60",
-    price: "&49449.00",
+    price: "$49449.00",
   },
   {
     image: sho3,
     name: "Further Products",
     model: "Notebook Blgscreen Z51-70",
     p: "70k6",
-    price: "&102362.00",
+    price: "$102362.00",
   },
   {
     image: sho4,
     name: "Featured Product Laptop",
     model: "Notebook Blgscreen Z51-70",
     p: "40k45",
-    price: "&10,000.00",
+    price: "$10,000.00",
   },
 ];
