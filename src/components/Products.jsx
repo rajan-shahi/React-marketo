@@ -8,21 +8,27 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import { BsArrow90DegDown } from "react-icons/bs";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { FiHeadphones } from "react-icons/fi";
+import { CiHeart } from "react-icons/ci";
 const Products = () => {
   return (
     <div className=" flex  md:py-10 justify-center ">
       <div className=" flex  md:px-0 px-4 justify-center  flex-col gap-3 w-full md:w-10/12">
         <div className=" flex   pb-4">
-          <h1 className=" text-2xl text-gray-700 font-bold">Most Popular Products</h1>
+          <h1 className=" text-2xl text-gray-700 font-bold">
+            Most Popular Products
+          </h1>
         </div>
-        <div className=" md:flex justify-center  gap-4 ">
+        <div className=" md:flex justify-center   gap-4 ">
           {shows.map((show, index) => (
             <div
               key={index}
-              className="  hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
+              className="  group hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
             >
-              <div className=" cursor-pointer">
+              <div className=" flex">
                 <img src={show.image} alt="" />
+                <div className="  opacity-0 group-hover:opacity-100  duration-1000">
+                  <h1 className=" text-red-700 font-bold flex justify-start"><CiHeart size={20}/></h1>
+                </div>{" "}
               </div>
               <div className=" text-gray-400 text-sm">
                 <h1>{show.name}</h1>
@@ -36,7 +42,9 @@ const Products = () => {
                 <h1>{show.p}</h1>
               </div>
               <div>
-                <p className=" text-xl text-orange-700  font-bold">{show.price}</p>
+                <p className=" text-xl text-orange-700  font-bold">
+                  {show.price}
+                </p>
               </div>
             </div>
           ))}
