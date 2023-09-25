@@ -8,7 +8,7 @@ import sho5 from "../assets/sho5.jpg";
 import sho6 from "../assets/sho6.jpg";
 const PopularsProduct = () => {
   return (
-    <div className=" md:px-0 px-4 flex justify-center  pb-20">
+    <div className=" md:px-0 px-4 flex justify-center pb-20">
       <div className="  md:flex justify-between  w-full md:w-10/12">
         {/* popular product */}
         <div className=" flex flex-col  w-full  md:w-3/12 md:pt-0 pt-10 ">

@@ -5,7 +5,7 @@ import saudi from "../assets/saudi-1.png";
 import singapur from "../assets/singapore-1.png";
 import usa from "../assets/usa-1.png";
 import brazil from "../assets/brazil-1.png";
-
+import { FaMapMarkerAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className=" flex  flex-col bg-gray-300 justify-center">
@@ -42,11 +42,17 @@ const Footer = () => {
             guarantee contract with Bank
           </p>
           <h1>for the amount of cash payment by the customer</h1>
-          <h2>17 Princess Road, London, Greater London NW1 8JR, UK</h2>
-          <div className=" py-5">
-          <button className=" text-sm  bg-red-600 w-40  text-white font-bold py-4   border-2 hover:bg-green-400">
-            View On Map
-          </button></div>
+          <h2 className=" pb-6">
+            17 Princess Road, London, Greater London NW1 8JR, UK
+          </h2>
+          <div className=" flex justify-center items-center gap-1 py-5  bg-gray-700 w-40     border-2 border-white hover:bg-green-400">
+            <button className="  text-xs  text-white font-bold">
+              View On Map
+            </button>
+            <span className=" flex items-center  text-white font-bold">
+              <FaMapMarkerAlt />
+            </span>
+          </div>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
           <h1 className=" text-lg  text-black font-bold">Our Stores</h1>
