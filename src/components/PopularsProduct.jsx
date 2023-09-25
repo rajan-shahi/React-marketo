@@ -25,7 +25,7 @@ const PopularsProduct = () => {
                         <img className=" h-16  cursor-pointer" src={popular.image} alt="" />
                     </div>
                     <div className=" flex flex-col gap-1">
-                        <h1 className=" text-sm text-gray-950   cursor-pointer hover:text-blue-600  hover:font-bold">{popular.model}</h1>
+                        <h1 className="text-sm  text-gray-800 font-bold  cursor-pointer hover:text-blue-600  hover:font-bold">{popular.model}</h1>
                         <p className=" text-sm text-orange-600 font-bold">{popular.price}</p>
                     </div>
                 </div>

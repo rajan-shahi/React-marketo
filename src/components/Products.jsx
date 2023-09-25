@@ -28,7 +28,7 @@ const Products = () => {
                 <h1>{show.name}</h1>
               </div>
               <div>
-                <h1 className=" text-lg text-black  hover:text-blue-500 cursor-pointer">
+                <h1 className=" text-sm  text-gray-800 font-bold  hover:text-blue-500 cursor-pointer">
                   {show.model}
                 </h1>
               </div>

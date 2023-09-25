@@ -40,7 +40,7 @@ const View = () => {
                       {view.model}
                     </h2>
                     <p className=" text-gray-900 py-3">{view.desc}</p>
-                    <button className="  flex justify-start items-center py-3 px-6  w-60 bg-black text-white hover:bg-orange-300">
+                    <button className="  flex  justify-center  text-xs items-center py-4   w-56 bg-black text-white hover:bg-orange-300">
                       {view.button}
                     </button>
                   </div>
@@ -49,7 +49,7 @@ const View = () => {
                   </div>
                 </div>
               </SwiperSlide>
-            ))}
+            ))} 
           </div>
         </Swiper>
       </div>
