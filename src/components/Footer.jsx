@@ -45,14 +45,16 @@ const Footer = () => {
           <h2 className=" pb-6">
             17 Princess Road, London, Greater London NW1 8JR, UK
           </h2>
-          <div className=" flex justify-center items-center gap-1 py-5  bg-gray-500 w-40     border-2 border-white hover:bg-green-400">
-            <button className="  text-xs  text-white font-bold">
-              View On Map
-            </button>
-            <span className=" flex items-center  text-white font-bold">
-              <FaMapMarkerAlt />
-            </span>
-          </div>
+          <a href="https://maps.google.com" target="-blank">
+            <div className=" flex justify-center items-center gap-1 py-5  bg-gray-500 w-40     border-2 border-white hover:bg-green-400">
+              <button className="  text-xs  text-white font-bold">
+                View On Map
+              </button>
+              <span className=" flex items-center  text-white font-bold">
+                <FaMapMarkerAlt />
+              </span>
+            </div>
+          </a>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
           <h1 className=" text-lg  text-black font-bold">Our Stores</h1>
