@@ -13,10 +13,10 @@ const DicountProducr = () => {
         {/* right */}
         <div className=" flex flex-col w-full md:w-7/12">
           <div className=" md:flex justify-between  border-b-2 pb-4">
-            <div className=" text-2xl text-gray-700 md:py-0 py-3 md:pt-0 pt-6 font-bold">
+            <div className="  text-2xl text-gray-700 md:py-0 py-3 md:pt-0 pt-8 font-bold">
               <h1>Discount Product</h1>
             </div>
-            <div className=" flex md:gap-8 justify-between text-lg text-gray-500">
+            <div className="  md:pt-0 pt-2 flex md:gap-8 justify-between text-lg text-gray-500">
               <h2  onClick={()=> setList(discounts40)} className=" cursor-pointer font-bold  hover:text-red-700 ">
                 40% Off
               </h2>
