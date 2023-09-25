@@ -45,7 +45,7 @@ const View = () => {
                     </button>
                   </div>
                   <div className=" cursor-pointer">
-                    <img src={view.image} alt="" />
+                    <img  className="   md:animate-bounce   " src={view.image} alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -53,12 +53,12 @@ const View = () => {
           </div>
         </Swiper>
       </div>
-      <div className=" grid gap-8 md:grid-cols-2  pt-28 md:px-0 md:pb-0 pb-8  px-4  ">
-        <div>
-          <img src={Feat1} alt="" />
+      <div className="  grid gap-8 md:grid-cols-2  pt-28 md:px-0 md:pb-0 pb-8  px-4  ">
+        <div className="  ">
+          <img className=" hover:animate-pulse" src={Feat1} alt="" />
         </div>
         <div>
-          <img src={Feat2} alt="" />
+          <img className="  hover:animate-pulse " src={Feat2} alt="" />
         </div>
       </div>
     </div>
