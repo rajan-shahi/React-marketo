@@ -16,10 +16,10 @@ const Buy = () => {
               <p className=" text-xl   text-gray-200  font-bold py-4">$340.000</p>
             </div>
             <div className="  md:w-max    grid md:grid-cols-2 grid-cols-1 md:gap-1 gap-6">
-              <button className=" flex justify-center   bg-red-700  w-full md:w-52 py-3  text-white  hover:bg-orange-400  font-bold">
+              <button className=" flex justify-center   bg-red-700  w-full md:w-52 py-4  text-white   hover:bg-orange-400  font-bold">
                 Buy Now
               </button>
-              <button className="  flex justify-center bg-black w-full  md:w-60 py-3  text-white  font-bold border-2 border-white hover:border-orange-400 hover:bg-transparent">
+              <button className="  flex justify-center bg-black w-full  md:w-60 py-4  text-white text-xs  font-bold border-2 border-white hover:border-orange-400 hover:bg-transparent">
                 VIEW COLLECTIONS
               </button>
             </div>
