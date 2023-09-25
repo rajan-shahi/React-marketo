@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Copyright = () => {
   return (
     <div className=" flex justify-between py-6 px-4 md:px-20 bg-gray-200">
-      <div className=" text-sm text-gray-500">
+      <div className="  text-sm text-gray-700 font-bold">
         <h1>Copyrights By rajan bahadur shahi - 2023</h1>
       </div>
       <div>

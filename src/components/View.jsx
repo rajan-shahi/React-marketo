@@ -53,7 +53,7 @@ const View = () => {
           </div>
         </Swiper>
       </div>
-      <div className=" grid gap-8 md:grid-cols-2  pt-28 md:px-0  px-4  ">
+      <div className=" grid gap-8 md:grid-cols-2  pt-28 md:px-0 md:pb-0 pb-8  px-4  ">
         <div>
           <img src={Feat1} alt="" />
         </div>
