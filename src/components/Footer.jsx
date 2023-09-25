@@ -35,7 +35,7 @@ const Footer = () => {
           <h1 className=" cursor-pointer">Saudi</h1>
         </div>
       </div>
-      <div className=" grid md:grid-cols-4 gap-10  px-4 md:px-10 py-16 text-sm  text-gray-500">
+      <div className=" grid md:grid-cols-3 gap-10  px-4 md:px-10 py-16 text-sm  text-gray-500">
         <div className=" flex-1 flex flex-col gap-4 md:px-4 ">
           <p>
             Company guarante secured transaction by signing a debt guarantee
@@ -56,6 +56,7 @@ const Footer = () => {
             </div>
           </a>
         </div>
+        <div className="  flex justify-center">
         <div className=" flex-1 flex flex-col gap-4">
           <h1 className=" text-lg  text-black font-bold">Our Stores</h1>
           <p>New York</p>
@@ -75,6 +76,7 @@ const Footer = () => {
           <p>Help</p>
           <p>Products Return</p>
           <p>FAQS</p>
+        </div>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
           <h1 className=" text-lg font-bold text-black">Subscribe</h1>
