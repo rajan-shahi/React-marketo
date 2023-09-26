@@ -8,20 +8,21 @@ import Items from "../components/Items";
 import PopularsProduct from "../components/PopularsProduct";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
-
+import AboutUS from "./AboutUS";
 
 const Home = () => {
   return (
     <div>
-    <Navbar/>
-    <View/>
-    <Products/>
-    <DicountProducr/>
-    <Buy/>
-    <Items/>
-    <PopularsProduct/>
-    <Footer/>
-    <Copyright/>
+      <Navbar />
+      <View />
+      <Products />
+      <DicountProducr />
+      <Buy />
+      <Items />
+      <PopularsProduct />
+      <Footer />
+      <Copyright />
+      <AboutUS/>
     </div>
   );
 };
