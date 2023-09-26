@@ -17,7 +17,7 @@ const AboutUS = () => {
     <div >
       {/*  navbar section */}
       <div className=" flex  md:px-0 px-4  bg-gray-100 justify-center">
-        <div className=" w-full md:w-9/12 flex  py-6 md:py-10 items-center text-sm text-gray-600 font-bold">
+        <div className="  md:justify-start justify-center w-full md:w-9/12 flex  py-6 md:py-8 items-center text-lg text-gray-600 font-bold">
           <div className=" flex gap-4">
             <h1>Home</h1>
             <span className=" flex items-center justify-center  px-2 text-gray-500">
@@ -32,7 +32,7 @@ const AboutUS = () => {
         <div className=" md:flex   w-full md:w-9/12  items-center  ">
           {/* leftbar */}
           <div className=" flex md:flex-1 flex-col gap-6">
-            <h1 className=" md:text-lg  text-sm text-blue-700">OUR HISTORY</h1>
+            <h1 className=" md:text-lg   text-sm text-blue-700">OUR HISTORY</h1>
 
             <h2 className="  md:text-4xl  text-2xl text-gray-700 font-bold">
               Creative and renovate fashion trends
@@ -71,12 +71,12 @@ const AboutUS = () => {
       <div className=" py-10  md:px-0 px-4 bg-gray-100 flex justify-center">
         <div className=" md:flex  md:py-12 w-full md:w-9/12">
           {/* left */}
-          <div className="  md:flex-1 md:pb-0 pb-5">
+          <div className="  md:flex-1  md:pb-0 pb-5">
             <img src={about21} alt="" />
           </div>
           {/* right */}
           <div className=" flex flex-col md:flex-1  md:gap-6   gap-4">
-            <h1 className=" md:text-lg text-blue-700">Our vision</h1>
+            <h1 className=" md:text-lg   md:pt-0  pt-4 text-blue-700">Our vision</h1>
             <h2 className=" md:text-4xl text-2xl text-gray-700  font-bold">
               We are marketpress
             </h2>
@@ -139,7 +139,7 @@ const AboutUS = () => {
           {/* left */}
           <div className=" flex flex-col gap-2 md:flex-1">
             <h1  className=" md:text-3xl text-2xl text-gray-700 font-bold md:pb-0 pb-3">Newsletter & Get Updates</h1>
-            <h2 className=" md:pb-0 pb-4">Sign up for our newsletter to get up-to-date from us</h2>
+            <h2 className=" md:pb-0 pb-4 text-sm  md:text-md">Sign up for our newsletter to get up-to-date from us</h2>
           </div>
           {/* right */}
           <div className=" flex  md:flex-1">
