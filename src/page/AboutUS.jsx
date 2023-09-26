@@ -143,7 +143,7 @@ const AboutUS = () => {
           </div>
           {/* right */}
           <div className=" flex  md:flex-1">
-            <input
+            <input  name="email"
               className=" py-3  px-4  outline-none border-2  border-r-0 border-gray-300   bg-white w-[500px] placeholder:text-sm placeholder:text-gray-600"
               type="email"
               placeholder=" Enter your email here"
