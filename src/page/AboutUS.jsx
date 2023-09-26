@@ -9,10 +9,13 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const AboutUS = () => {
   return (
-    // navbar section
-    <div className="  py-20">
+    
+    <div >
+      {/*  navbar section */}
       <div className=" flex   bg-gray-100 justify-center">
         <div className=" w-9/12 flex py-10 items-center text-sm text-gray-600 font-bold">
           <div className=" flex gap-4">
@@ -29,7 +32,7 @@ const AboutUS = () => {
         <div className=" flex w-9/12  items-center ">
           {/* leftbar */}
           <div className=" flex flex-1 flex-col gap-6">
-            <h1 className=" text-lg  text-blue-600">OUR HISTORY</h1>
+            <h1 className=" text-lg  text-blue-700">OUR HISTORY</h1>
 
             <h2 className="  text-4xl text-gray-700 font-bold">
               Creative and renovate fashion trends
@@ -42,17 +45,17 @@ const AboutUS = () => {
               directed convergence without revolutionary ROI.
             </p>
 
-            <div className=" flex justify-between pt-14">
+            <div className=" flex gap-10 pt-12">
               <div className=" flex  flex-col gap-1 ">
-                <h1 className=" text-5xl text-blue-600">12</h1>
+                <h1 className=" text-5xl text-blue-600 font-bold">12</h1>
                 <p className="  text-sm text-gray-500">Years Experience</p>
               </div>
               <div className=" flex  flex-col gap-1 ">
-                <h1 className=" text-5xl text-blue-600">20K</h1>
+                <h1 className=" text-5xl text-blue-600 font-bold">20K</h1>
                 <p className="  text-sm text-gray-500">Happy Customers</p>
               </div>
               <div className=" flex  flex-col gap-1 ">
-                <h1 className=" text-5xl text-blue-600">100%</h1>
+                <h1 className=" text-5xl text-blue-600 font-bold">100%</h1>
                 <p className="  text-sm text-gray-500">Clients Satisfaction</p>
               </div>
             </div>
@@ -73,7 +76,7 @@ const AboutUS = () => {
           </div>
           {/* right */}
           <div className=" flex flex-col flex-1  gap-6">
-            <h1 className=" text-lg text-blue-600">Our vision</h1>
+            <h1 className=" text-lg text-blue-700">Our vision</h1>
             <h2 className=" text-4xl text-gray-700  font-bold">
               We are marketpress
             </h2>
@@ -94,24 +97,36 @@ const AboutUS = () => {
       {/* MEET SECTIONS */}
       <div className=" flex py-16 justify-center">
         <div className=" flex  flex-col justify-center w-9/12">
-          <div>
-            <h1 className=" text-md text-blue-600">ANGELS</h1>
-            <h2 className=" text-4xl text-gray-700 font-bold">Meet with our Team</h2>
+          <div className=" flex flex-col gap-1">
+            <h1 className=" text-md text-blue-700">ANGELS</h1>
+            <h2 className=" text-3xl text-gray-700 font-bold">
+              Meet with our Team
+            </h2>
           </div>
           <div className=" grid grid-cols-4 gap-4 py-4">
-            {teams.map((team,index)=>(
+            {teams.map((team, index) => (
               <div key={index} className=" flex group  flex-col gap-5  py-8">
                 <div>
                   <img src={team.image} alt="" />
                 </div>
                 <div className=" opacity-0 group-hover:opacity-100  duration-1000 absolute flex gap-4  pl-20 py-36 text-black font-bold text-2xl  ">
-                  <span className=" cursor-pointer"><FaFacebookF/></span>
-                  <span className=" cursor-pointer"><FaTwitterSquare/></span>
-                  <span className=" cursor-pointer"><FaInstagramSquare/></span>
+                  <span className=" cursor-pointer">
+                    <FaFacebookF />
+                  </span>
+                  <span className=" cursor-pointer">
+                    <FaTwitterSquare />
+                  </span>
+                  <span className=" cursor-pointer">
+                    <FaInstagramSquare />
+                  </span>
                 </div>
                 <div className=" flex flex-col gap-1 items-center">
-                  <h1 className=" text-sm text-blue-700 font-bold">{team.post}</h1>
-                  <h2 className=" text-xl text-gray-800 font-bold">{team.name}</h2>
+                  <h1 className=" text-sm text-blue-700 font-bold">
+                    {team.post}
+                  </h1>
+                  <h2 className=" text-xl text-gray-800 font-bold">
+                    {team.name}
+                  </h2>
                 </div>
               </div>
             ))}
@@ -119,85 +134,81 @@ const AboutUS = () => {
         </div>
       </div>
       {/* FOOTER SECTION */}
-      <div className=" flex justify-center">
-        <div className=" flex w-9/12">
+      <div className=" bg-gray-100 flex justify-center">
+        <div className=" flex  pt-20  py-8 w-9/12">
           {/* left */}
-          <div className=" flex-1">
-            <h1>Newsletter & Get Updates</h1>
+          <div className=" flex flex-col gap-2 flex-1">
+            <h1  className=" text-3xl text-gray-700 font-bold">Newsletter & Get Updates</h1>
             <h2>Sign up for our newsletter to get up-to-date from us</h2>
-            <h2></h2>
           </div>
           {/* right */}
-          <div className=" flex-1">
-            <input className=" w-[500px]" type="email" placeholder=" enter your email here" />
-            <button>Submit</button>
+          <div className=" flex  flex-1">
+            <input
+              className=" py-3  px-4  outline-none border-2  border-r-0 border-gray-300   bg-white w-[500px] placeholder:text-sm placeholder:text-gray-600"
+              type="email"
+              placeholder=" Enter your email here"
+            />
+            <button className=" py-3 px-8   bg-blue-600 hover:bg-green-600 text-white">
+              Submit
+            </button>
           </div>
-
         </div>
-
       </div>
+      <Link to={"/"}>
+      <div  className=" bg-gray-100 pb-12 flex  justify-end px-20">
+        <div className=" flex  gap-2 bg-blue-600 hover:bg-green-600 px-6 py-2 items-center">
+        <button className=" text-white hover:bg-green-600">Home page</button>
+        <span className="  text-black font-bold flex items-center"><BsArrowRight size={20}/></span></div>
+      </div>
+      </Link>
     </div>
   );
 };
 
 export default AboutUS;
 
-
-
-
-
 const teams = [
   {
     image: team11,
     post: "FOUNDER",
     name: "Tony Williamson",
-   
-    
   },
   {
     image: team21,
     post: "CEO",
     name: "William Hanah",
- 
   },
-  
+
   {
     image: team31,
     post: "ADVISOR",
     name: "JInglo Jelian",
-   
   },
   {
     image: team41,
     post: "DESIGNER",
     name: "Jony Smith",
-  
   },
 
   {
     image: team31,
     post: "FOUNDER",
     name: "Tony Williamson",
-   
-    
   },
   {
     image: team41,
     post: "CEO",
     name: "William Hanah",
- 
   },
-  
+
   {
     image: team11,
     post: "ADVISOR",
     name: "JInglo Jelian",
-   
   },
   {
     image: team21,
     post: "DESIGNER",
     name: "Jony Smith",
-  
   },
 ];

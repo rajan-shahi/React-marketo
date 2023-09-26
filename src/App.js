@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./page/About";
+import AboutUS from "./page/AboutUS";
 import Home from "./page/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -10,11 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/shopbar" element={<ShopBar />} />
-          <Route path="/signin" element={<SighIn />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/add to card" element={<AddNeweCard />} />
-          <Route path="/blog" element={<BlogSideBar />} /> */}
+          <Route path="/aboutUs" element={<AboutUS/>} />
         </Routes>
       </BrowserRouter>
     </div>

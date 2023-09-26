@@ -26,6 +26,17 @@ const Navbar = () => {
               </span>
             </div>{" "}
           </Link>
+
+          <Link to={"/aboutUs" }>
+            <div className=" flex gap-1 items-center">
+              <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
+                Pages
+              </h2>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
+            </div>
+          </Link>
           <div className=" flex gap-1 items-center">
             <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Shop
@@ -34,14 +45,7 @@ const Navbar = () => {
               <BsChevronDown />
             </span>
           </div>
-          <div className=" flex gap-1 items-center">
-            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
-              Pages
-            </h2>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-              <BsChevronDown />
-            </span>
-          </div>
+
           <div className=" flex gap-1 items-center">
             <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Blog
@@ -83,10 +87,12 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
-                {" "}
-                Pages
-              </li>
+              <Link to={"/aboutUs"}>
+                <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
+                  {" "}
+                  Pages
+                </li>
+              </Link>
 
               <li className="   hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
                 Shop
