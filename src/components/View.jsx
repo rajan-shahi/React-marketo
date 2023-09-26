@@ -45,11 +45,15 @@ const View = () => {
                     </button>
                   </div>
                   <div className=" cursor-pointer">
-                    <img  className="   md:animate-bounce   " src={view.image} alt="" />
+                    <img
+                      className="   md:animate-bounce   "
+                      src={view.image}
+                      alt=""
+                    />
                   </div>
                 </div>
               </SwiperSlide>
-            ))} 
+            ))}
           </div>
         </Swiper>
       </div>

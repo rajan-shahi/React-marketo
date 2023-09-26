@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>{" "}
           </Link>
 
-          <Link to={"/aboutUs" }>
+          <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Pages

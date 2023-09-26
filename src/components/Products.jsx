@@ -27,7 +27,9 @@ const Products = () => {
               <div className=" flex">
                 <img src={show.image} alt="" />
                 <div className="  opacity-0 group-hover:opacity-100  duration-1000">
-                  <h1 className=" text-red-700 font-bold flex justify-start"><CiHeart size={20}/></h1>
+                  <h1 className=" text-red-700 font-bold flex justify-start">
+                    <CiHeart size={20} />
+                  </h1>
                 </div>{" "}
               </div>
               <div className=" text-gray-400 text-sm">

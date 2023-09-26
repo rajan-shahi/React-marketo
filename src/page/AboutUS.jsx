@@ -16,8 +16,8 @@ const AboutUS = () => {
     
     <div >
       {/*  navbar section */}
-      <div className=" flex   bg-gray-100 justify-center">
-        <div className=" w-9/12 flex py-10 items-center text-sm text-gray-600 font-bold">
+      <div className=" flex  md:px-0 px-4  bg-gray-100 justify-center">
+        <div className=" w-full md:w-9/12 flex  py-6 md:py-10 items-center text-sm text-gray-600 font-bold">
           <div className=" flex gap-4">
             <h1>Home</h1>
             <span className=" flex items-center justify-center  px-2 text-gray-500">
@@ -28,10 +28,10 @@ const AboutUS = () => {
         </div>
       </div>
       {/* history section */}
-      <div className=" flex justify-center  py-28">
-        <div className=" flex w-9/12  items-center ">
+      <div className=" flex md:px-0 px-4 justify-center  py-14  md:py-28">
+        <div className=" md:flex  w-full md:w-9/12  items-center ">
           {/* leftbar */}
-          <div className=" flex flex-1 flex-col gap-6">
+          <div className=" flex md:flex-1 flex-col gap-6">
             <h1 className=" text-lg  text-blue-700">OUR HISTORY</h1>
 
             <h2 className="  text-4xl text-gray-700 font-bold">
@@ -61,21 +61,21 @@ const AboutUS = () => {
             </div>
           </div>
           {/* rightbar */}
-          <div className="  flex flex-1 justify-end">
+          <div className="  flex md:flex-1 justify-start  md:justify-end">
             <img src={about} alt="" />
           </div>
         </div>
       </div>
 
       {/* VISION SECTION */}
-      <div className=" py-10 bg-gray-100 flex justify-center">
-        <div className=" flex  py-12 w-9/12">
+      <div className=" py-10  md:px-0 px-4 bg-gray-100 flex justify-center">
+        <div className=" md:flex  py-12 w-full md:w-9/12">
           {/* left */}
-          <div className="  flex-1">
+          <div className="  md:flex-1">
             <img src={about21} alt="" />
           </div>
           {/* right */}
-          <div className=" flex flex-col flex-1  gap-6">
+          <div className=" flex flex-col md:flex-1  gap-6">
             <h1 className=" text-lg text-blue-700">Our vision</h1>
             <h2 className=" text-4xl text-gray-700  font-bold">
               We are marketpress
@@ -95,15 +95,15 @@ const AboutUS = () => {
         </div>
       </div>
       {/* MEET SECTIONS */}
-      <div className=" flex py-16 justify-center">
-        <div className=" flex  flex-col justify-center w-9/12">
+      <div className=" md:px-0 px-4 flex py-16 justify-center">
+        <div className=" flex  flex-col justify-center w-full md:w-9/12">
           <div className=" flex flex-col gap-1">
             <h1 className=" text-md text-blue-700">ANGELS</h1>
             <h2 className=" text-3xl text-gray-700 font-bold">
               Meet with our Team
             </h2>
           </div>
-          <div className=" grid grid-cols-4 gap-4 py-4">
+          <div className=" grid grid-cols-1 md:grid-cols-4  gap-4 py-4">
             {teams.map((team, index) => (
               <div key={index} className=" flex group  flex-col gap-5  py-8">
                 <div>
@@ -134,15 +134,15 @@ const AboutUS = () => {
         </div>
       </div>
       {/* FOOTER SECTION */}
-      <div className=" bg-gray-100 flex justify-center">
-        <div className=" flex  pt-20  py-8 w-9/12">
+      <div className=" bg-gray-100 flex justify-center md:px-0 px-4">
+        <div className=" md:flex  pt-20  py-8  w-full md:w-9/12">
           {/* left */}
-          <div className=" flex flex-col gap-2 flex-1">
-            <h1  className=" text-3xl text-gray-700 font-bold">Newsletter & Get Updates</h1>
-            <h2>Sign up for our newsletter to get up-to-date from us</h2>
+          <div className=" flex flex-col gap-2 md:flex-1">
+            <h1  className=" md:text-3xl text-2xl text-gray-700 font-bold md:pb-0 pb-3">Newsletter & Get Updates</h1>
+            <h2 className=" md:pb-0 pb-4">Sign up for our newsletter to get up-to-date from us</h2>
           </div>
           {/* right */}
-          <div className=" flex  flex-1">
+          <div className=" flex  md:flex-1">
             <input
               className=" py-3  px-4  outline-none border-2  border-r-0 border-gray-300   bg-white w-[500px] placeholder:text-sm placeholder:text-gray-600"
               type="email"
@@ -155,7 +155,7 @@ const AboutUS = () => {
         </div>
       </div>
       <Link to={"/"}>
-      <div  className=" bg-gray-100 pb-12 flex  justify-end px-20">
+      <div  className=" bg-gray-100 pb-12 flex  justify-end md:px-20 px-4">
         <div className=" flex  gap-2 bg-blue-600 hover:bg-green-600 px-6 py-2 items-center">
         <button className=" text-white hover:bg-green-600">Home page</button>
         <span className="  text-black font-bold flex items-center"><BsArrowRight size={20}/></span></div>

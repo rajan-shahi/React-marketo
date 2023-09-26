@@ -55,7 +55,6 @@ const Footer = () => {
                 <FaMapMarkerAlt />
               </span>
             </div>
-          
         </div>
         <div className=" flex">
         <div className=" flex-1 flex flex-col gap-4">
