@@ -118,6 +118,24 @@ const AboutUS = () => {
           </div>
         </div>
       </div>
+      {/* FOOTER SECTION */}
+      <div className=" flex justify-center">
+        <div className=" flex w-9/12">
+          {/* left */}
+          <div className=" flex-1">
+            <h1>Newsletter & Get Updates</h1>
+            <h2>Sign up for our newsletter to get up-to-date from us</h2>
+            <h2></h2>
+          </div>
+          {/* right */}
+          <div className=" flex-1">
+            <input className=" w-[500px]" type="email" placeholder=" enter your email here" />
+            <button>Submit</button>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   );
 };
