@@ -105,10 +105,11 @@ const Navbar = () => {
               <li className="   hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
                 Shop
               </li>
-
-              <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
-                Login
-              </li>
+              <Link to={"/login"}>
+                <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
+                  Login
+                </li>
+              </Link>
             </ul>
           </div>
         </div>

@@ -9,25 +9,26 @@ import { BsArrowRight } from "react-icons/bs";
 const Blog = () => {
   return (
     <div className=" flex justify-center">
-      <div className=" flex  justify-center gap-14 py-10 w-10/12 ">
+      <div className=" md:flex   justify-center gap-14 md:py-10  w-full md:w-10/12 ">
         {/* left Container */}
-        <div className=" w-5/12  flex flex-col gap-10">
+        <div className=" md:w-5/12  w-full  flex flex-col md:gap-10">
           {/* top Section */}
-          <div className=" flex items-center justify-between border w-full py-5 px-8">
+          <div className=" flex items-center  border w-full py-5 px-8">
+          <span>
+              <AiOutlineSearch size={20} />
+            </span>
             <input
               className=" w-full outline-none"
               type="text"
               placeholder=" Search....."
             />
-            <span>
-              <AiOutlineSearch size={20} />
-            </span>
+           
           </div>
-          <div className=" bg-gray-200">
+          <div className="  bg-gray-200 w-full">
             <div>
               <img className=" w-full" src={news1} alt="" />
             </div>
-            <div className=" flex flex-col  px-20 py-14  pt-24  gap-6">
+            <div className=" flex flex-col  md:px-20 px-4 md:py-14 py-10  md:pt-24  gap-6">
               <div className=" flex items-center gap-1">
                 <span className=" text-gray-800 font-bold">
                   <BiMessage />
@@ -51,11 +52,11 @@ const Blog = () => {
             </div>
           </div>
           {/* mid section */}
-          <div className=" bg-gray-200">
+          <div className=" w-full bg-gray-200">
             <div>
-              <img className=" w-full" src={news2} alt="" />
+              <img className=" md:pt-0 pt-6 w-full" src={news2} alt="" />
             </div>
-            <div className=" flex flex-col  px-20 py-14  pt-24  gap-6">
+            <div className=" flex flex-col  md:px-20 px-4 md:py-14  py-10 md:pt-24   gap-6">
               <div className=" flex items-center gap-1">
                 <span className=" text-gray-800 font-bold">
                   <BiMessage />
@@ -80,12 +81,12 @@ const Blog = () => {
           </div>
         </div>
         {/* right Container */}
-        <div className=" flex flex-col  w-5/12">
+        <div className=" flex flex-col w-full  md:w-5/12">
           <div className=" flex flex-col gap-16 bg-gray-200">
             <div>
-              <img className=" w-full" src={news3} alt="" />
+              <img className=" md:pt-0 pt-6 w-full" src={news3} alt="" />
             </div>
-            <div className=" flex flex-col  px-20 py-14  pt-24  gap-6">
+            <div className=" flex flex-col  md:px-20 px-4 md:py-14  md:pt-24  gap-6">
               <div className=" flex items-center gap-1">
                 <span className=" text-gray-800 font-bold">
                   <BiMessage />
@@ -109,9 +110,9 @@ const Blog = () => {
             </div>
             <div className=" bg-gray-200">
               <div>
-                <img className=" w-full" src={news1} alt="" />
+                <img className=" md:pt-0 pt-6 w-full" src={news1} alt="" />
               </div>
-              <div className=" flex flex-col  px-20 py-14  pt-16  gap-6">
+              <div className=" flex flex-col  md:px-20 px-4 md:py-14   md:pt-16  pt-10 gap-6">
                 <div className=" flex items-center gap-1">
                   <span className=" text-gray-800 font-bold">
                     <BiMessage />
@@ -133,7 +134,7 @@ const Blog = () => {
             </div>
           </div>
           <Link to={"/"}>
-            <div className=" bg-gray-100  py-10 flex  justify-end">
+            <div className=" bg-gray-100  py-10 flex  justify-end md:px-0 px-4">
               <div className=" flex  gap-2 bg-blue-600 hover:bg-green-600 px-6 py-2 items-center">
                 <button className=" text-white hover:bg-green-600">
                   Home page
