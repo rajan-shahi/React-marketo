@@ -3,10 +3,11 @@ import news1 from "../assets/news-2.jpg";
 import news2 from "../assets/news-3.jpg";
 import news3 from "../assets/news-4-1.jpg";
 import { BiMessage } from "react-icons/bi";
+import { AiOutlineSearch } from 'react-icons/ai';
 const Blog = () => {
   return (
     <div className=" flex justify-center">
-      <div className=" flex py-10 w-9/12 ">
+      <div className=" flex gap-5 py-10 w-9/12 ">
         {/* left Container */}
         <div className=" w-8/12  flex flex-col gap-20">
           {/* top Section */}
@@ -48,11 +49,11 @@ const Blog = () => {
                   <BiMessage />
                 </span>
                 <h1 className=" text-sm text-gray-500 hover:text-blue-600 cursor-pointer">
-                  Electronics
+                Speaker
                 </h1>
               </div>
               <h2 className="  text-lg text-gray-700 font-bold  hover:text-orange-700 cursor-pointer">
-                Seating Collection Inspiration Is Not Enough For People
+              Creative Water Features And Exterior Design
               </h2>
               <h2 className=" text-md text-gray-700 ">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -76,11 +77,11 @@ const Blog = () => {
                   <BiMessage />
                 </span>
                 <h1 className=" text-sm text-gray-500 hover:text-blue-600 cursor-pointer">
-                  Electronics
+                Electronics
                 </h1>
               </div>
               <h2 className="  text-lg text-gray-700 font-bold  hover:text-orange-700 cursor-pointer">
-                Seating Collection Inspiration Is Not Enough For People
+              Creative Water Features And Exterior Design
               </h2>
               <h2 className=" text-md text-gray-700 ">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -95,7 +96,15 @@ const Blog = () => {
           </div>
         </div>
         {/* right Container */}
-        <div className=" w-1/12">Right</div>
+        <div className=" flex flex-col w-1/12">
+          <div>
+            <div>
+              <input type="text" placeholder="Search" />
+              <span><AiOutlineSearch/></span>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
