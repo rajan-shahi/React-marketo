@@ -8,6 +8,7 @@ import Items from "../components/Items";
 import PopularsProduct from "../components/PopularsProduct";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
+import Blog from "./Blog";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <PopularsProduct />
       <Footer />
       <Copyright />
+      <Blog/>
     </div>
   );
 };
