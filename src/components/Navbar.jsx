@@ -83,7 +83,7 @@ const Navbar = () => {
               className={
                 !nav
                   ? "hidden"
-                  : "   md:z-0 z-40  absolute  bg-gray-600    py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
+                  : "   md:z-0 z-40  absolute  bg-[#473E66]    py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
               <Link to={"/about"}>
@@ -102,9 +102,7 @@ const Navbar = () => {
                   Blog
                 </li>
               </Link>
-              <li className="   hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
-                Shop
-              </li>
+
               <Link to={"/login"}>
                 <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
                   Login
