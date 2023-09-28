@@ -32,8 +32,8 @@ const Products = () => {
                   </h1>
                 </div>{" "}
               </div>
-              rajan
-              
+            
+
               <div className=" text-gray-400 text-sm">
                 <h1>{show.name}</h1>
               </div>
