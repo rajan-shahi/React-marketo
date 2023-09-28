@@ -16,6 +16,7 @@ const Navbar = () => {
         </div>
         {/* right */}
         <div className=" md:flex  hidden gap-10">
+          rrajan
           <Link to={"/about"}>
             <div className=" flex gap-1 items-center">
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
