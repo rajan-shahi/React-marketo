@@ -18,22 +18,30 @@ const PopularsProduct = () => {
               <RiExpandLeftRightLine size={50} />
             </span>
           </div>
-          {/* Test comment */}
+
           <div className=" flex flex-col gap-8 pt-4">
-            {populars.map((popular,index)=>(
-                <div key={index} className="  flex  gap-3 items-center">
-                    <div>
-                        <img className=" h-16  cursor-pointer" src={popular.image} alt="" />
-                    </div>
-                    <div className=" flex flex-col gap-1">
-                        <h1 className="text-sm  text-gray-800 font-bold  cursor-pointer hover:text-blue-600  hover:font-bold">{popular.model}</h1>
-                        <p className=" text-sm text-orange-600 font-bold">{popular.price}</p>
-                    </div>
+            {populars.map((popular, index) => (
+              <div key={index} className="  flex  gap-3 items-center">
+                <div>
+                  <img
+                    className=" h-16  cursor-pointer"
+                    src={popular.image}
+                    alt=""
+                  />
                 </div>
+                <div className=" flex flex-col gap-1">
+                  <h1 className="text-sm  text-gray-800 font-bold  cursor-pointer hover:text-blue-600  hover:font-bold">
+                    {popular.model}
+                  </h1>
+                  <p className=" text-sm text-orange-600 font-bold">
+                    {popular.price}
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
-        
+
         {/* recent product */}
         <div className=" flex flex-col w-full md:w-3/12 md:pt-0  pt-14 ">
           <div className=" flex border-b pb-4 justify-between items-center">
@@ -45,16 +53,24 @@ const PopularsProduct = () => {
             </span>
           </div>
           <div className=" flex flex-col gap-8 pt-4">
-            {recents.map((recent,index)=>(
-                <div key={index} className=" flex  gap-3 items-center">
-                    <div>
-                        <img className="  h-16  cursor-pointer" src={recent.image} alt="" />
-                    </div>
-                    <div className=" flex flex-col gap-1">
-                        <h1 className=" text-sm text-gray-950    cursor-pointer hover:text-blue-600  hover:font-bold">{recent.model}</h1>
-                        <p className=" text-sm text-orange-600 font-bold">{recent.price}</p>
-                    </div>
+            {recents.map((recent, index) => (
+              <div key={index} className=" flex  gap-3 items-center">
+                <div>
+                  <img
+                    className="  h-16  cursor-pointer"
+                    src={recent.image}
+                    alt=""
+                  />
                 </div>
+                <div className=" flex flex-col gap-1">
+                  <h1 className=" text-sm text-gray-950    cursor-pointer hover:text-blue-600  hover:font-bold">
+                    {recent.model}
+                  </h1>
+                  <p className=" text-sm text-orange-600 font-bold">
+                    {recent.price}
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -67,16 +83,24 @@ const PopularsProduct = () => {
             </span>
           </div>
           <div className="flex flex-col gap-8 pt-4">
-            {sellings.map((selling,index)=>(
-                <div key={index} className=" flex  gap-3 items-center">
-                    <div>
-                        <img className=" h-16  cursor-pointer" src={selling.image} alt="" />
-                    </div>
-                    <div className=" flex flex-col gap-1">
-                        <h1 className=" text-sm text-gray-950   cursor-pointer hover:text-blue-600  hover:font-bold">{selling.model}</h1>
-                        <p className=" text-sm text-orange-600 font-bold">{selling.price}</p>
-                    </div>
+            {sellings.map((selling, index) => (
+              <div key={index} className=" flex  gap-3 items-center">
+                <div>
+                  <img
+                    className=" h-16  cursor-pointer"
+                    src={selling.image}
+                    alt=""
+                  />
                 </div>
+                <div className=" flex flex-col gap-1">
+                  <h1 className=" text-sm text-gray-950   cursor-pointer hover:text-blue-600  hover:font-bold">
+                    {selling.model}
+                  </h1>
+                  <p className=" text-sm text-orange-600 font-bold">
+                    {selling.price}
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -87,65 +111,59 @@ const PopularsProduct = () => {
 
 export default PopularsProduct;
 
-
-
 const populars = [
-    {
-      image: sho5,
-      model: " ASUS laptop inspire 2016 2QF-621XPL",
-      price: "$110.00-$240.00",
-    },
-    {
-      image: sho6,
-      model: "Notebook blgscreen Z51-70 40K6009",
-      price: "$1,500.00",
-    },
-    
-    {
-      image: sho4,
-      model: "Notebook blgscreen Z51-70 40K6004",
-      price: "$4,000.00",
-    },
-  ];
-  
+  {
+    image: sho5,
+    model: " ASUS laptop inspire 2016 2QF-621XPL",
+    price: "$110.00-$240.00",
+  },
+  {
+    image: sho6,
+    model: "Notebook blgscreen Z51-70 40K6009",
+    price: "$1,500.00",
+  },
 
-  
+  {
+    image: sho4,
+    model: "Notebook blgscreen Z51-70 40K6004",
+    price: "$4,000.00",
+  },
+];
+
 const recents = [
-    {
-      image: sho1,
-      model: " ASUS laptop inspire 2016 2QF-621XPL",
-      price: "$110.00-$240.00",
-    },
-    {
-      image: sho5,
-      model: "Notebook blgscreen Z51-70 40K6009",
-      price: "$1,500.00",
-    },
-    
-    {
-      image: sho3,
-      model: "Notebook blgscreen Z51-70 40K6004",
-      price: "$4,000.00",
-    },
-  ];
-  
+  {
+    image: sho1,
+    model: " ASUS laptop inspire 2016 2QF-621XPL",
+    price: "$110.00-$240.00",
+  },
+  {
+    image: sho5,
+    model: "Notebook blgscreen Z51-70 40K6009",
+    price: "$1,500.00",
+  },
 
-  
+  {
+    image: sho3,
+    model: "Notebook blgscreen Z51-70 40K6004",
+    price: "$4,000.00",
+  },
+];
+
 const sellings = [
-    {
-      image: sho4,
-      model: " ASUS laptop inspire 2016 2QF-621XPL",
-      price: "$110.00-$240.00",
-    },
-    {
-      image: sho2,
-      model: "Notebook blgscreen Z51-70 40K6009",
-      price: "$1,500.00",
-    },
-    
-    {
-      image: sho6,
-      model: "Notebook blgscreen Z51-70 40K6004",
-      price: "$4,000.00",
-    },
-  ];
+  {
+    image: sho4,
+    model: " ASUS laptop inspire 2016 2QF-621XPL",
+    price: "$110.00-$240.00",
+  },
+  {
+    image: sho2,
+    model: "Notebook blgscreen Z51-70 40K6009",
+    price: "$1,500.00",
+  },
+
+  {
+    image: sho6,
+    model: "Notebook blgscreen Z51-70 40K6004",
+    price: "$4,000.00",
+  },
+];
