@@ -20,6 +20,7 @@ const Navbar = () => {
             <div className=" flex gap-1 items-center">
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Home
+                 Rajan Bahadur Shahi
               </h1>
               <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer hover:text-orange-400 ">
                 <BsChevronDown />
@@ -69,7 +70,7 @@ const Navbar = () => {
         </div>
         {/* mobile menu */}
         <div className=" flex  flex-col md:hidden">
-          <div className="     flex items-center justify-between cursor-pointer ">
+          <div className=" flex items-center justify-between cursor-pointer ">
             <div onClick={handleClick} className=" px-4 ">
               {!nav ? (
                 <AiOutlineMenu size={30} className=" text-black" />
@@ -97,8 +98,8 @@ const Navbar = () => {
                   Pages
                 </li>
               </Link>
-              <Link to={"blog"}>
-                <li className="   hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
+              <Link to={"/blog"}>
+                <li className=" hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
                   Blog
                 </li>
               </Link>
