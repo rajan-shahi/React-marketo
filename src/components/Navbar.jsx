@@ -26,6 +26,7 @@ const Navbar = () => {
                  tapendra bahadur shahi
                  padma devi shahi
                  chet bahadur shahi
+                 rampura kumari shahi
               </h1>
               <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer hover:text-orange-400 ">
                 <BsChevronDown />
