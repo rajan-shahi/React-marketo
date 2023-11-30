@@ -21,6 +21,7 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Home
                  Rajan Bahadur Shahi
+                 lokendra chaulagain
               </h1>
               <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer hover:text-orange-400 ">
                 <BsChevronDown />
