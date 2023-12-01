@@ -1,5 +1,8 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
+import { BiSolidDashboard } from "react-icons/bi";
+import { IoReorderFourOutline } from "react-icons/io5";
+import { FaAngleDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import f1 from "../assets/f1.jpg";
 import f2 from "../assets/f2.jpg";
@@ -45,42 +48,53 @@ const Shop = () => {
                   >
                     <div className=" text-sm   text-gray-500  font-bold  flex flex-col gap-4">
                       <h1 className=" cursor-pointer">{filter.name}</h1>
-                      <h2 className=" text-red-700  text-sm cursor-pointer">{filter.price}</h2>
+                      <h2 className=" text-red-700  text-sm cursor-pointer">
+                        {filter.price}
+                      </h2>
                     </div>
-                    <img src={filter.img}  className=" h-10 cursor-pointer"  alt="" />
+                    <img
+                      src={filter.img}
+                      className=" h-10 cursor-pointer"
+                      alt=""
+                    />
                   </div>
                 ))}
               </div>
             </div>
             <div className=" flex flex-col gap-4 border rounded-sm px-6 py-8">
               <div>
-                <h1 className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">Product categories</h1>
+                <h1 className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">
+                  Product categories
+                </h1>
               </div>
               <div className=" flex flex-col gap-6">
-                {categories.map((categorie,index)=>(
-                  <div key={index} className=" border-b  border-gray-100 py-2" >
-                    <h1 className=" text-sm text-gray-600 cursor-pointer hover:text-green-500 duration-500">{categorie.name}</h1>
+                {categories.map((categorie, index) => (
+                  <div key={index} className=" border-b  border-gray-100 py-2">
+                    <h1 className=" text-sm text-gray-600 cursor-pointer hover:text-green-500 duration-500">
+                      {categorie.name}
+                    </h1>
                   </div>
                 ))}
               </div>
             </div>
           </div>
           {/* right */}
-          <div className=" flex justify-center w-7/12">
-            <h1>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
-              pariatur repellendus. Ea corrupti harum animi, dolor esse iure
-              doloremque voluptatum est, doloribus deserunt expedita dolorum.
-              Corporis totam dolorum quos neque labore, corrupti blanditiis quod
-              error aut, libero quaerat quasi soluta deleniti cum iure veritatis
-              deserunt quam? Earum eligendi nihil est modi, accusantium facilis
-              rerum quia voluptate laboriosam voluptas minima quod in corporis
-              similique fuga maxime alias nobis quas deserunt sequi facere!
-              Officia, consectetur maxime. Fugit labore, maiores mollitia quas
-              pariatur ut vitae sit est obcaecati nihil, praesentium fugiat
-              architecto nemo quasi optio repellendus cum, rem hic blanditiis.
-              Consectetur, dolores magnam!
-            </h1>
+          <div className=" flex  flex-col gap-8 w-7/12">
+            <div className=" flex bg-gray-100 px-5 py-8 justify-between">
+              <div>
+                <h1 className=" text-md cursor-pointer  text-gray-700 font-bold">Shop</h1>{" "}
+              </div>{" "}
+              <div className=" flex gap-20">
+                <h2 className=" text-md cursor-pointer  text-gray-700 font-bold">Sort by Sorting</h2>
+                <span className=" flex items-center gap-4 text-md cursor-pointer  text-gray-700 font-bold">
+                <FaAngleDown />
+                  <h1>View</h1>
+                  <BiSolidDashboard size={30} className="  text-red-500" />
+                  <IoReorderFourOutline  size={30} className=" text-gray-400"/>
+                </span>
+              </div>
+            </div>
+            <div>buttom</div>
           </div>
         </div>
       </div>
@@ -108,43 +122,41 @@ const filters = [
   },
 ];
 
-
-
-const categories =[
+const categories = [
   {
-    name:"3d Glass (4)"
+    name: "3d Glass (4)",
   },
   {
-    name:"Camera (2)"
+    name: "Camera (2)",
   },
   {
-    name:"chair (3)"
+    name: "chair (3)",
   },
   {
-    name:"Drone (2)"
+    name: "Drone (2)",
   },
   {
-    name:"Featured Product (2)"
+    name: "Featured Product (2)",
   },
   {
-    name:"Future Product (1)"
+    name: "Future Product (1)",
   },
   {
-    name:"Gamepad (5)"
+    name: "Gamepad (5)",
   },
   {
-    name:"Google Glass (2)"
+    name: "Google Glass (2)",
   },
   {
-    name:"Innovative Furnitures (4)"
+    name: "Innovative Furnitures (4)",
   },
   {
-    name:"Laptop (5)"
+    name: "Laptop (5)",
   },
   {
-    name:"Mobile (7)"
+    name: "Mobile (7)",
   },
   {
-    name:"Projector (1)"
+    name: "Projector (1)",
   },
-]
+];
