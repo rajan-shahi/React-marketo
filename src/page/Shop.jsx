@@ -28,9 +28,9 @@ const Shop = () => {
         </h1>
       </div>
       <div className=" flex justify-center items-center py-10">
-        <div className=" flex  justify-cente  gap-10 w-10/12">
+        <div className=" md:flex  justify-cente  gap-10 md:w-10/12  w-full">
           {/* left */}
-          <div className=" flex  flex-col gap-10  w-3/12">
+          <div className=" flex  flex-col gap-10 w-full  md:px-0 px-4  md:w-3/12">
             <div className="  flex flex-col gap-4 border rounded-sm py-8 px-10">
               <h1 className="  border-l-4 px-3 border-red-500  text-gray-600 font-bold text-md">
                 Filter:
@@ -85,14 +85,14 @@ const Shop = () => {
             </div>
           </div>
           {/* right */}
-          <div className=" flex  flex-col gap-8 w-7/12">
+          <div className=" flex  md:py-0 py-6 flex-col gap-8  w-full md:w-7/12">
             <div className=" flex bg-gray-100 px-5 py-8 justify-between">
               <div>
-                <h1 className=" text-md cursor-pointer  text-gray-700 font-bold">Shop</h1>{" "}
+                <h1 className=" md:text-md  text-sm cursor-pointer  text-gray-700 font-bold">Shop</h1>{" "}
               </div>{" "}
-              <div className=" flex gap-20">
-                <h2 className=" text-md cursor-pointer  text-gray-700 font-bold">Sort by Sorting</h2>
-                <span className=" flex items-center gap-4 text-md cursor-pointer  text-gray-700 font-bold">
+              <div className=" flex  gap-5 md:gap-20">
+                <h2 className=" md:text-md text-sm cursor-pointer  text-gray-700 font-bold">Sort by Sorting</h2>
+                <span className=" flex items-center gap-4 md:text-md text-sm cursor-pointer  text-gray-700 font-bold">
                 <FaAngleDown />
                   <h1>View</h1>
                   <BiSolidDashboard size={30} className="  text-red-500" />
@@ -100,10 +100,10 @@ const Shop = () => {
                 </span>
               </div>
             </div>
-            <div className=" grid grid-cols-4  gap-4">
+            <div className="  md:px-0 px-4 grid md:grid-cols-4  gap-4">
               {shoes.map((shoe,index)=>(
                 <div key={index} className=" border hover:shadow-md duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
-                  <img src={shoe.img} alt="" className=" cursor-pointer" />
+                  <img src={shoe.img} alt="" className=" cursor-pointer " />
                   <h1 className=" text-md text-gray-600 font-bold cursor-pointer  hover:text-red-700 hover:font-bold duration-500 ">{shoe.name}</h1>
                   <h1 className=" text-red-600 font-bold  text-md cursor-pointer ">{shoe.price}</h1>
                   <h2 className=" text-sm text-gray-500">{shoe.desc}</h2>
