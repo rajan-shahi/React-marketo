@@ -6,33 +6,29 @@ const Shop = () => {
     <div className=" flex flex-col  justify-center">
       <div className=" flex gap-6 justify-center  items-center bg-gray-200 p-10">
         <Link to={"/"}>
-        <h1 className=" font-bold text-gray-600 text-md cursor-pointer  hover:text-red-400 duration-300">
-          Home
-        </h1></Link>
+          <h1 className=" font-bold text-gray-600 text-md cursor-pointer  hover:text-red-400 duration-300">
+            Home
+          </h1>
+        </Link>
         <FaAngleRight size={20} />
         <h1 className=" font-bold text-gray-600 text-md cursor-pointer hover:text-red-400 duration-300">
           Shop
         </h1>
       </div>
       <div className=" flex justify-center items-center py-10">
-        <div className=" flex  justify-center  gap-10 w-10/12">
+        <div className=" flex  justify-cente  gap-10 w-10/12">
           {/* left */}
-          <div className=" flex  w-3/12">
-            <h1>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repellat, facilis animi! Explicabo inventore iusto quasi soluta
-              mollitia asperiores at perspiciatis amet quis eaque porro, itaque
-              placeat sit, aliquid veritatis eius sequi dignissimos voluptate
-              nihil pariatur nemo architecto molestiae quam voluptatibus.
-              Numquam eveniet quos culpa praesentium corporis voluptatum optio
-              nesciunt veniam dolorum necessitatibus soluta suscipit
-              voluptatibus sint impedit, eos dolore veritatis totam non ducimus
-              dolorem, iure molestiae quod facilis? Quasi veritatis, sunt
-              dolorum, nihil assumenda excepturi quisquam unde ratione alias
-              corrupti amet, ducimus soluta tenetur aliquid eos nostrum hic
-              doloribus itaque. Necessitatibus reiciendis in nisi. Tempore non
-              laboriosam incidunt itaque sint.
-            </h1>
+          <div className=" flex  flex-col gap-10  w-3/12">
+            <div className="  flex flex-col gap-4 border rounded-sm py-6 px-10">
+              <h1 className="  border-l-2 px-3 border-red-500  text-gray-600 font-bold text-md">Filter:</h1>
+              <h1 className=" text-gray-600 text-lg cursor-pointer ">price: $40 - $20,000</h1>
+              <button className=" bg-red-500 full  rounded-md py-2  text-gray-100  text-lg hover:bg-green-600 duration-500">
+                Filter
+              </button>
+
+            </div>
+            <div>middle</div>
+            <div>buttom</div>
           </div>
           {/* right */}
           <div className=" flex justify-center w-7/12">
