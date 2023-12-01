@@ -9,7 +9,7 @@ import {
 
 const DicountProducr = () => {
   const [list, setList] = useState(discounts40);
-  console.log(list)
+  console.log(list);
   return (
     <div className=" flex justify-center pt-10 md:pb-20 md:px-0 px-4">
       <div className=" md:flex justify-center  gap-10 w-full md:w-10/12">
