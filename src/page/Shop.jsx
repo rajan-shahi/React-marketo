@@ -33,7 +33,7 @@ const Shop = () => {
                 Filter
               </button>
             </div>
-            <div className=" border  py-5 flex flex-col  px-5">
+            <div className=" border  rounded-sm py-5 flex flex-col  px-5">
               <div className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">
                 Products By Rating
               </div>
@@ -41,7 +41,7 @@ const Shop = () => {
                 {filters.map((filter, index) => (
                   <div
                     key={index}
-                    className=" flex  justify-between border-b py-4"
+                    className=" flex  justify-between border-b  border-gray-100 py-4"
                   >
                     <div className=" text-sm   text-gray-500  font-bold  flex flex-col gap-4">
                       <h1 className=" cursor-pointer">{filter.name}</h1>
@@ -52,10 +52,13 @@ const Shop = () => {
                 ))}
               </div>
             </div>
-            <div className=" border px-6 py-8">
+            <div className=" flex flex-col gap-4 border rounded-sm px-6 py-8">
+              <div>
+                <h1 className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">Product categories</h1>
+              </div>
               <div className=" flex flex-col gap-6">
                 {categories.map((categorie,index)=>(
-                  <div key={index} className=" border-b py-1" >
+                  <div key={index} className=" border-b  border-gray-100 py-2" >
                     <h1 className=" text-sm text-gray-600 cursor-pointer hover:text-green-500 duration-500">{categorie.name}</h1>
                   </div>
                 ))}
