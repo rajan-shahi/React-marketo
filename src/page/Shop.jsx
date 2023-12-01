@@ -102,8 +102,11 @@ const Shop = () => {
             </div>
             <div className=" grid grid-cols-4  gap-4">
               {shoes.map((shoe,index)=>(
-                <div key={index} className=" border flex flex-col gap-4">
-                  <img src={shoe.img} alt="" />
+                <div key={index} className=" border hover:shadow-md duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
+                  <img src={shoe.img} alt="" className=" cursor-pointer" />
+                  <h1 className=" text-md text-gray-600 font-bold cursor-pointer  hover:text-red-700 hover:font-bold duration-500 ">{shoe.name}</h1>
+                  <h1 className=" text-red-600 font-bold  text-md cursor-pointer ">{shoe.price}</h1>
+                  <h2 className=" text-sm text-gray-500">{shoe.desc}</h2>
                 </div>
               ))}
             </div>
@@ -207,19 +210,19 @@ const categories = [
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
-    img: f1,
+    img: f2,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
     price:"$199.00",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
-    img: f2,
+    img: f3,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
     price:"$568.00",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
-    img: f3,
+    img: f1,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
     price:"$1596.00",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
