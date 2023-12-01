@@ -7,6 +7,12 @@ import { Link } from "react-router-dom";
 import f1 from "../assets/f1.jpg";
 import f2 from "../assets/f2.jpg";
 import f3 from "../assets/f3.jpg";
+import s1 from "../assets/s1.jpg";
+import s2 from "../assets/s2.jpg";
+import s3 from "../assets/s3.jpg";
+import s4 from "../assets/s4.jpg";
+import s5 from "../assets/s5.jpg";
+
 const Shop = () => {
   return (
     <div className=" flex flex-col  justify-center">
@@ -94,7 +100,13 @@ const Shop = () => {
                 </span>
               </div>
             </div>
-            <div>buttom</div>
+            <div className=" grid grid-cols-4  gap-4">
+              {shoes.map((shoe,index)=>(
+                <div key={index} className=" border flex flex-col gap-4">
+                  <img src={shoe.img} alt="" />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -160,3 +172,56 @@ const categories = [
     name: "Projector (1)",
   },
 ];
+
+
+
+ const shoes =[
+  {
+    img: s1,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$4,000.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: s2,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$110.00 – $240.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: s3,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$1,500.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: s4,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$220.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: s5,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$2,800.00 – $3,400.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: f1,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$199.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: f2,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$568.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
+    img: f3,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$1596.00",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+ ]
