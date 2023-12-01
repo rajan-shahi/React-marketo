@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
-                Pages
+                About Us
               </h2>
               <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
                 <BsChevronDown />
@@ -95,7 +95,13 @@ const Navbar = () => {
               <Link to={"/aboutUs"}>
                 <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
                   {" "}
-                  Pages
+                  About Us
+                </li>
+              </Link>
+              <Link to={"/shop"}>
+                <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
+                  {" "}
+                  Shop
                 </li>
               </Link>
               <Link to={"/blog"}>

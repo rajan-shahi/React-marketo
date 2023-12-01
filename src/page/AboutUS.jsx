@@ -19,7 +19,8 @@ const AboutUS = () => {
       <div className=" flex  md:px-0 px-4  bg-gray-100 justify-center">
         <div className="  md:justify-start justify-center w-full md:w-9/12 flex  py-6 md:py-8 items-center text-lg text-gray-600 font-bold">
           <div className=" flex gap-4">
-            <h1>Home</h1>
+            <Link to={"/"}>
+            <h1>Home</h1></Link>
             <span className=" flex items-center justify-center  px-2 text-gray-500">
               <AiOutlineDoubleRight />
             </span>
