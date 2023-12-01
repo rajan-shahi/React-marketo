@@ -47,6 +47,7 @@ const Navbar = () => {
               </span>
             </div>
           </Link>
+          <Link to={"/shop"}>
           <div className=" flex gap-1 items-center">
             <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
               Shop
@@ -55,7 +56,7 @@ const Navbar = () => {
               <BsChevronDown />
             </span>
           </div>
-
+          </Link>
           <Link to={"/login"}>
             <div className=" flex gap-1 items-center">
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
