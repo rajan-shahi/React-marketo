@@ -51,9 +51,16 @@ const Shop = () => {
                   </div>
                 ))}
               </div>
-              <div></div>
             </div>
-            <div>buttom</div>
+            <div className=" border px-6 py-8">
+              <div className=" flex flex-col gap-6">
+                {categories.map((categorie,index)=>(
+                  <div key={index} className=" border-b py-1" >
+                    <h1 className=" text-sm text-gray-600 cursor-pointer hover:text-green-500 duration-500">{categorie.name}</h1>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
           {/* right */}
           <div className=" flex justify-center w-7/12">
@@ -97,3 +104,44 @@ const filters = [
     price: "$199.00",
   },
 ];
+
+
+
+const categories =[
+  {
+    name:"3d Glass (4)"
+  },
+  {
+    name:"Camera (2)"
+  },
+  {
+    name:"chair (3)"
+  },
+  {
+    name:"Drone (2)"
+  },
+  {
+    name:"Featured Product (2)"
+  },
+  {
+    name:"Future Product (1)"
+  },
+  {
+    name:"Gamepad (5)"
+  },
+  {
+    name:"Google Glass (2)"
+  },
+  {
+    name:"Innovative Furnitures (4)"
+  },
+  {
+    name:"Laptop (5)"
+  },
+  {
+    name:"Mobile (7)"
+  },
+  {
+    name:"Projector (1)"
+  },
+]
