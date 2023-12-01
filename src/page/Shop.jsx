@@ -1,6 +1,9 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import f1 from "../assets/f1.jpg";
+import f2 from "../assets/f2.jpg";
+import f3 from "../assets/f3.jpg";
 const Shop = () => {
   return (
     <div className=" flex flex-col  justify-center">
@@ -19,15 +22,37 @@ const Shop = () => {
         <div className=" flex  justify-cente  gap-10 w-10/12">
           {/* left */}
           <div className=" flex  flex-col gap-10  w-3/12">
-            <div className="  flex flex-col gap-4 border rounded-sm py-6 px-10">
-              <h1 className="  border-l-2 px-3 border-red-500  text-gray-600 font-bold text-md">Filter:</h1>
-              <h1 className=" text-gray-600 text-lg cursor-pointer ">price: $40 - $20,000</h1>
+            <div className="  flex flex-col gap-4 border rounded-sm py-8 px-10">
+              <h1 className="  border-l-4 px-3 border-red-500  text-gray-600 font-bold text-md">
+                Filter:
+              </h1>
+              <h1 className=" text-gray-600 text-lg cursor-pointer ">
+                price: $40 - $20,000
+              </h1>
               <button className=" bg-red-500 full  rounded-md py-2  text-gray-100  text-lg hover:bg-green-600 duration-500">
                 Filter
               </button>
-
             </div>
-            <div>middle</div>
+            <div className=" border  py-5 flex flex-col  px-5">
+              <div className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">
+                Products By Rating
+              </div>
+              <div className=" py-8">
+                {filters.map((filter, index) => (
+                  <div
+                    key={index}
+                    className=" flex  justify-between border-b py-4"
+                  >
+                    <div className=" text-sm   text-gray-500  font-bold  flex flex-col gap-4">
+                      <h1 className=" cursor-pointer">{filter.name}</h1>
+                      <h2 className=" text-red-700  text-sm cursor-pointer">{filter.price}</h2>
+                    </div>
+                    <img src={filter.img}  className=" h-10 cursor-pointer"  alt="" />
+                  </div>
+                ))}
+              </div>
+              <div></div>
+            </div>
             <div>buttom</div>
           </div>
           {/* right */}
@@ -54,3 +79,21 @@ const Shop = () => {
 };
 
 export default Shop;
+
+const filters = [
+  {
+    img: f1,
+    name: "Mini 3D Glass",
+    price: "$220.00",
+  },
+  {
+    img: f2,
+    name: "Notebook Blgscreen Z51-70 40K6958",
+    price: "$299.00",
+  },
+  {
+    img: f3,
+    name: "Notebook Blgscreen Z51-70 40k1254",
+    price: "$199.00",
+  },
+];
