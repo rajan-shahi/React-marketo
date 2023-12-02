@@ -35,6 +35,7 @@ const Shop = () => {
               <h1 className="  border-l-4 px-3 border-red-500  text-gray-600 font-bold text-md">
                 Filter:
               </h1>
+              <input type="range"  />
               <h1 className=" text-gray-600 text-lg cursor-pointer ">
                 price: $40 - $20,000
               </h1>
@@ -100,7 +101,7 @@ const Shop = () => {
                 </span>
               </div>
             </div>
-            <div className="  md:px-0 px-4 grid md:grid-cols-4  gap-4">
+            <div className="  md:px-0 px-4 grid md:grid-cols-4   gap-4">
               {shoes.map((shoe,index)=>(
                 <div key={index} className=" border hover:shadow-md duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
                   <img src={shoe.img} alt="" className=" cursor-pointer " />
