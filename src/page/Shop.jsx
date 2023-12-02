@@ -28,7 +28,7 @@ const Shop = () => {
         </h1>
       </div>
       <div className=" flex justify-center items-center py-10">
-        <div className=" md:flex  justify-cente  gap-10 md:w-10/12  w-full">
+        <div className=" md:flex  justify-center  gap-10 md:w-10/12  w-full">
           {/* left */}
           <div className=" flex  flex-col gap-10 w-full  md:px-0 px-4  md:w-3/12">
             <div className="  flex flex-col gap-4 border rounded-sm py-8 px-10">
