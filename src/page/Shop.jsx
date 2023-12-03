@@ -90,7 +90,7 @@ const Shop = () => {
                 </span>
               </div>
             </div>
-            <div className="  md:px-0 px-4 grid md:grid-cols-4   gap-4">
+            <div className="  md:px-0 px-4 grid md:grid-cols-3   gap-4">
               {shoes.map((shoe,index)=>(
                 <div key={index} className=" border hover:shadow-md hover:shadow-slate-300 duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
                   <img src={shoe.img} alt="" className=" cursor-pointer " />
@@ -170,6 +170,12 @@ const categories = [
 
  const shoes =[
   {
+    img: f1,
+    name: "ASUS Laptop Inspire 2016 2QF-621XPL",
+    price:"$156.000",
+    desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
+  },
+  {
     img: s1,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
     price:"$4,00.000",
@@ -212,9 +218,10 @@ const categories = [
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
-    img: f1,
+    img: s3,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$156.000",
+    price:"$1,500.00",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
+ 
  ]
