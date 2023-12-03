@@ -15,7 +15,7 @@ function App() {
     <div className=" overflow-x-hidden">
       <BrowserRouter>
         <Navbar />
-        <div className="  md:py-32 py-20">
+        <div className="   md:py-32 py-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
