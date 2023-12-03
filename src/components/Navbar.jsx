@@ -4,9 +4,11 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [nav, setNev] = useState(false);
   const handleClick = () => setNev(!nav);
+
   return (
     <div name="navbar" className=" md:pb-10 pb-20">
       <div className=" fixed  left-0 right-0 top-0 bg-white z-30 flex items-center justify-between py-4 border-b-2 md:px-20 px-4">
@@ -16,17 +18,6 @@ const Navbar = () => {
         </div>
         {/* right */}
         <div className=" md:flex  hidden gap-10">
-          <Link to={"/about"}>
-            <div className=" flex gap-1 items-center">
-              <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
-                Home
-              </h1>
-              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer hover:text-orange-400 ">
-                <BsChevronDown />
-              </span>
-            </div>{" "}
-          </Link>
-
           <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
@@ -48,14 +39,14 @@ const Navbar = () => {
             </div>
           </Link>
           <Link to={"/shop"}>
-          <div className=" flex gap-1 items-center">
-            <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
-              Shop
-            </h2>
-            <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-              <BsChevronDown />
-            </span>
-          </div>
+            <div className=" flex gap-1 items-center">
+              <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
+                Shop
+              </h2>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
+            </div>
           </Link>
           <Link to={"/login"}>
             <div className=" flex gap-1 items-center">
@@ -124,3 +115,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

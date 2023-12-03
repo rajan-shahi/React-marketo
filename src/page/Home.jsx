@@ -6,7 +6,6 @@ import DicountProducr from "../components/DicountProducr";
 import Buy from "../components/Buy";
 import Items from "../components/Items";
 import PopularsProduct from "../components/PopularsProduct";
-import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
 
 const Home = () => {
@@ -19,7 +18,6 @@ const Home = () => {
       <Buy />
       <Items />
       <PopularsProduct />
-      <Footer />
       <Copyright />
     </div>
   );
