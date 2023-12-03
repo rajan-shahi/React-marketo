@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import logo from "../assets/logo-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -23,9 +22,6 @@ const Navbar = () => {
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 About Us
               </h2>
-              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-                <BsChevronDown />
-              </span>
             </div>
           </Link>
           <Link to={"/blog"}>
@@ -33,9 +29,6 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Blog
               </h1>
-              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-                <BsChevronDown />
-              </span>
             </div>
           </Link>
           <Link to={"/shop"}>
@@ -43,9 +36,6 @@ const Navbar = () => {
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Shop
               </h2>
-              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-                <BsChevronDown />
-              </span>
             </div>
           </Link>
           <Link to={"/login"}>
@@ -53,9 +43,6 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Login
               </h1>
-              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
-                <BsChevronDown />
-              </span>
             </div>
           </Link>
         </div>
@@ -115,4 +102,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
