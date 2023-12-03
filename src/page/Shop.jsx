@@ -1,9 +1,7 @@
 import React from "react";
-import { FaAngleRight } from "react-icons/fa";
 import { BiSolidDashboard } from "react-icons/bi";
 import { IoReorderFourOutline } from "react-icons/io5";
 import { FaAngleDown } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import f1 from "../assets/f1.jpg";
 import f2 from "../assets/f2.jpg";
 import f3 from "../assets/f3.jpg";

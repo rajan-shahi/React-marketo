@@ -3,8 +3,7 @@ import news1 from "../assets/news-2.jpg";
 import news2 from "../assets/news-3.jpg";
 import news3 from "../assets/news-4-1.jpg";
 import { BiMessage } from "react-icons/bi";
-import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
+
 const Blog = () => {
   return (
     <div className=" flex justify-center">

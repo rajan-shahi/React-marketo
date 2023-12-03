@@ -12,11 +12,19 @@ const Navbar = () => {
     <div name="navbar" className=" md:pb-10 pb-20">
       <div className=" fixed  left-0 right-0 top-0 bg-white z-30 flex items-center justify-between py-3 border-b md:px-20 px-4">
         {/* left */}
+        <Link to={"/"}>
         <div className=" md:border-r-2 md:pr-8  py-2 border-gray-300 cursor-pointer">
           <img src={logo} alt="" />
-        </div>
+        </div></Link>
         {/* right */}
         <div className=" md:flex  hidden gap-10">
+        <Link to={"/"}>
+            <div className=" flex gap-1 items-center">
+              <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
+                Home
+              </h2>
+            </div>
+          </Link>
           <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
@@ -47,7 +55,7 @@ const Navbar = () => {
           </Link>
         </div>
         {/* mobile menu */}
-        <div className=" flex  flex-col md:hidden">
+        <div className=" flex   flex-col md:hidden">
           <div className=" flex items-center justify-between cursor-pointer ">
             <div onClick={handleClick} className=" px-4 ">
               {!nav ? (
@@ -57,14 +65,23 @@ const Navbar = () => {
               )}
             </div>
           </div>
-          <div className=" ">
+          <div className="">
             <ul
               className={
                 !nav
-                  ? "hidden"
+                  ? "hidden "
                   : "   md:z-0 z-40  absolute  bg-[#473E66]      py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
+               <Link to={"/"}>
+                <li
+                  onClick={handleClick}
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                >
+                  {" "}
+                  Home
+                </li>
+              </Link>
               <Link to={"/aboutUs"}>
                 <li
                   onClick={handleClick}
