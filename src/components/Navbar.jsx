@@ -55,8 +55,8 @@ const Navbar = () => {
           </Link>
         </div>
         {/* mobile menu */}
-        <div className=" flex   flex-col md:hidden">
-          <div className=" flex items-center justify-between cursor-pointer ">
+        <div className=" flex  flex-col md:hidden">
+          <div className=" flex  items-center justify-between cursor-pointer ">
             <div onClick={handleClick} className=" px-4 ">
               {!nav ? (
                 <AiOutlineMenu size={30} className=" text-black" />
@@ -70,7 +70,7 @@ const Navbar = () => {
               className={
                 !nav
                   ? "hidden "
-                  : "   md:z-0 z-40  absolute  bg-[#473E66]      py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
+                  : "   md:z-0 z-40  absolute  bg-[#473E66] top-20      py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
                <Link to={"/"}>
