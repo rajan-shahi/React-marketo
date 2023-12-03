@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import View from "../components/View";
 import Products from "../components/Products";
 import DicountProducr from "../components/DicountProducr";
@@ -11,7 +11,7 @@ import Copyright from "../components/Copyright";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <View />
       <Products />
       <DicountProducr />

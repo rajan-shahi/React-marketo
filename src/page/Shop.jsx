@@ -16,18 +16,7 @@ import s5 from "../assets/s5.jpg";
 const Shop = () => {
   return (
     <div className=" flex flex-col  justify-center">
-      <div className=" flex gap-6 justify-center  items-center bg-gray-200 p-10">
-        <Link to={"/"}>
-          <h1 className=" font-bold text-gray-600 text-md cursor-pointer  hover:text-red-400 duration-300">
-            Home
-          </h1>
-        </Link>
-        <FaAngleRight size={20} />
-        <h1 className=" font-bold text-gray-600 text-md cursor-pointer hover:text-red-400 duration-300">
-          Shop
-        </h1>
-      </div>
-      <div className=" flex justify-center items-center py-10">
+      <div className=" flex justify-center items-center">
         <div className=" md:flex  justify-center  gap-10 md:w-10/12  w-full">
           {/* left */}
           <div className=" flex  flex-col gap-10 w-full  md:px-0 px-4  md:w-3/12">

@@ -5,32 +5,16 @@ import team11 from "../assets/team_11.png";
 import team21 from "../assets/team_21.png";
 import team31 from "../assets/team_31.png";
 import team41 from "../assets/team_41.png";
-import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
 const AboutUS = () => {
   return (
     
     <div >
-      {/*  navbar section */}
-      <div className=" flex  md:px-0 px-4  bg-gray-100 justify-center">
-        <div className="  md:justify-start justify-center w-full md:w-9/12 flex  py-6 md:py-8 items-center text-lg text-gray-600 font-bold">
-          <div className=" flex gap-4">
-            <Link to={"/"}>
-            <h1>Home</h1></Link>
-            <span className=" flex items-center justify-center  px-2 text-gray-500">
-              <AiOutlineDoubleRight />
-            </span>
-          </div>
-          <h2>About Us</h2>
-        </div>
-      </div>
       {/* history section */}
-      <div className=" flex md:px-0 px-4 justify-center  py-14  md:py-28">
-        <div className=" md:flex   w-full md:w-9/12  items-center  ">
+      <div className=" flex md:px-0 px-4 justify-center">
+        <div className=" md:flex   w-full md:w-9/12  pb-14  items-center  ">
           {/* leftbar */}
           <div className=" flex md:flex-1 flex-col gap-6">
             <h1 className=" md:text-lg   text-sm text-blue-700">OUR HISTORY</h1>
@@ -96,7 +80,7 @@ const AboutUS = () => {
         </div>
       </div>
       {/* MEET SECTIONS */}
-      <div className=" md:px-0 px-4 flex py-16 justify-center">
+      <div className=" md:px-0 px-4 flex pt-14  pb-5 justify-center">
         <div className=" flex  flex-col justify-center w-full md:w-9/12">
           <div className=" flex flex-col gap-1">
             <h1 className=" md:text-md text-sm text-blue-700">ANGELS</h1>
@@ -111,13 +95,13 @@ const AboutUS = () => {
                   <img className=" flex w-full" src={team.image} alt="" />
                 </div>
                 <div className=" opacity-0 group-hover:opacity-100  duration-1000 absolute flex gap-4  pl-20 py-36 text-black font-bold text-2xl  ">
-                  <span className=" cursor-pointer">
+                  <span className="  hover:text-gray-500  duration-500 cursor-pointer">
                     <FaFacebookF />
                   </span>
-                  <span className=" cursor-pointer">
+                  <span className=" hover:text-gray-500 duration-500   cursor-pointer">
                     <FaTwitterSquare />
                   </span>
-                  <span className=" cursor-pointer">
+                  <span className="hover:text-gray-500 duration-500  cursor-pointer">
                     <FaInstagramSquare />
                   </span>
                 </div>
@@ -135,8 +119,8 @@ const AboutUS = () => {
         </div>
       </div>
       {/* FOOTER SECTION */}
-      <div className=" bg-gray-100 flex justify-center md:px-0 px-4">
-        <div className=" md:flex  pt-20  py-8  w-full md:w-9/12">
+      <div className=" flex bg-gray-100 justify-center md:px-0 px-4">
+        <div className=" md:flex  py-20 w-full md:w-9/12">
           {/* left */}
           <div className=" flex flex-col gap-2 md:flex-1">
             <h1  className=" md:text-3xl text-2xl text-gray-700 font-bold md:pb-0 pb-3">Newsletter & Get Updates</h1>
@@ -145,23 +129,16 @@ const AboutUS = () => {
           {/* right */}
           <div className=" flex  md:flex-1">
             <input  name="email"
-              className=" py-3  px-4  outline-none border-2  border-r-0 border-gray-300   bg-white w-[500px] placeholder:text-sm placeholder:text-gray-600"
+              className=" py-2  px-4 outline-none border-2  border-r-0 border-gray-300   bg-white w-[500px] placeholder:text-sm placeholder:text-gray-600"
               type="email"
               placeholder=" Enter your email here"
             />
             <button className=" py-3 px-8   bg-blue-600 hover:bg-green-600 text-white">
               Submit
             </button>
-          </div>
+          </div> 
         </div>
       </div>
-      <Link to={"/"}>
-      <div  className=" bg-gray-100 pb-12 flex  justify-end md:px-20 px-4">
-        <div className=" flex  gap-2 bg-blue-600 hover:bg-green-600 px-6 py-2 items-center">
-        <button className=" text-white hover:bg-green-600">Home page</button>
-        <span className="  text-black font-bold flex items-center"><BsArrowRight size={20}/></span></div>
-      </div>
-      </Link>
     </div>
   );
 };

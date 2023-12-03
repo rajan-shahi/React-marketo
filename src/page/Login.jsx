@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className=" flex justify-center md:py-8  ">
+    <div className=" flex justify-center   ">
     <div className=" flex   flex-col gap-2 w-full md:w-3/12 shadow-lg   shadow-gray-300  rounded-lg md:py-12 py-14">
       <div className=" flex flex-col justify-center items-center">
         <h1 className=" text-2xl text-gray-600">Login</h1>

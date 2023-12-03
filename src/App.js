@@ -8,20 +8,24 @@ import Login from "./page/Login";
 import Signup from "./page/Signup";
 import Shop from "./page/Shop";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className=" overflow-x-hidden">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/aboutUs" element={<AboutUS />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/shop" element={<Shop />} />
-        </Routes>
+        <Navbar />
+        <div className="  py-32">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/aboutUs" element={<AboutUS />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/shop" element={<Shop />} />
+          </Routes>
+        </div>
       </BrowserRouter>
       <Footer />
     </div>

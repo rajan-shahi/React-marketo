@@ -9,7 +9,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Blog = () => {
   return (
     <div className=" flex justify-center">
-      <div className=" md:flex   justify-center gap-14 md:py-10  w-full md:w-10/12 ">
+      <div className=" md:flex   justify-center gap-14   w-full md:w-10/12 ">
         {/* left Container */}
         <div className=" md:w-5/12  w-full  flex flex-col md:gap-10">
           {/* top Section */}

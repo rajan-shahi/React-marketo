@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div name="navbar" className=" md:pb-10 pb-20">
-      <div className=" fixed  left-0 right-0 top-0 bg-white z-30 flex items-center justify-between py-4 border-b-2 md:px-20 px-4">
+      <div className=" fixed  left-0 right-0 top-0 bg-white z-30 flex items-center justify-between py-4 border-b md:px-20 px-4">
         {/* left */}
         <div className=" md:border-r-2 md:pr-8  py-2 border-gray-300 cursor-pointer">
           <img src={logo} alt="" />
@@ -22,6 +23,9 @@ const Navbar = () => {
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 About Us
               </h2>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
             </div>
           </Link>
           <Link to={"/blog"}>
@@ -29,6 +33,9 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Blog
               </h1>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
             </div>
           </Link>
           <Link to={"/shop"}>
@@ -36,6 +43,9 @@ const Navbar = () => {
               <h2 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Shop
               </h2>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
             </div>
           </Link>
           <Link to={"/login"}>
@@ -43,6 +53,9 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Login
               </h1>
+              <span className=" flex  items-center pt-2  text-gray-500 cursor-pointer  hover:text-orange-400">
+                <BsChevronDown />
+              </span>
             </div>
           </Link>
         </div>
@@ -65,30 +78,34 @@ const Navbar = () => {
                   : "   md:z-0 z-40  absolute  bg-[#473E66]    py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
-              <Link to={"/about"}>
-                <li className="   hover:text-orange-400  cursor-pointer py-4   text-4xl  text-gray-200">
-                  Home
-                </li>
-              </Link>
               <Link to={"/aboutUs"}>
-                <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
+                <li
+                  onClick={handleClick}
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                >
                   {" "}
                   About Us
                 </li>
               </Link>
               <Link to={"/shop"}>
-                <li className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200">
+                <li
+                  onClick={handleClick}
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                >
                   {" "}
                   Shop
                 </li>
               </Link>
               <Link to={"/blog"}>
-                <li className=" hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200">
+                <li
+                  onClick={handleClick}
+                  className=" hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200"
+                >
                   Blog
                 </li>
               </Link>
 
-              <Link to={"/login"}>
+              <Link onClick={handleClick} to={"/login"}>
                 <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
                   Login
                 </li>
