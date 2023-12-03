@@ -70,7 +70,7 @@ const Navbar = () => {
               className={
                 !nav
                   ? "hidden "
-                  : "   md:z-0 z-40  absolute  bg-[#473E66]  top-16 py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
+                  : "   md:z-0 z-40  absolute  bg-[#473E66]  top-20 py-10 left-0 right-0   flex flex-col items-center   rounded-md   "
               }
             >
                <Link to={"/"}>
