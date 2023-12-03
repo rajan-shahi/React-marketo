@@ -207,7 +207,7 @@ const categories = [
   {
     img: s5,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$20.00 -$250.000",
+    price:"$120.00 -$250.000",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
