@@ -76,7 +76,7 @@ const Navbar = () => {
                <Link to={"/"}>
                 <li
                   onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-3xl  text-gray-200"
                 >
                   {" "}
                   Home
@@ -85,7 +85,7 @@ const Navbar = () => {
               <Link to={"/aboutUs"}>
                 <li
                   onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-3xl  text-gray-200"
                 >
                   {" "}
                   About Us
@@ -94,7 +94,7 @@ const Navbar = () => {
               <Link to={"/shop"}>
                 <li
                   onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-4xl  text-gray-200"
+                  className="  hover:text-orange-400 cursor-pointer py-4 text-3xl  text-gray-200"
                 >
                   {" "}
                   Shop
@@ -103,14 +103,14 @@ const Navbar = () => {
               <Link to={"/blog"}>
                 <li
                   onClick={handleClick}
-                  className=" hover:text-orange-400 cursor-pointer py-4 text-4xl text-gray-200"
+                  className=" hover:text-orange-400 cursor-pointer py-4 text-3xl text-gray-200"
                 >
                   Blog
                 </li>
               </Link>
 
               <Link onClick={handleClick} to={"/login"}>
-                <li className="   hover:text-orange-400  cursor-pointer py-4 text-4xl  text-gray-200">
+                <li className="   hover:text-orange-400  cursor-pointer py-4 text-3xl  text-gray-200">
                   Login
                 </li>
               </Link>
