@@ -71,7 +71,7 @@ const Shop = () => {
             <div className=" flex flex-col gap-4 border rounded-sm px-6 py-8">
               <div>
                 <h1 className=" border-l-4 border-red-500 px-3 text-md text-gray-600 font-bold">
-                  Product categories
+                  Product Categories
                 </h1>
               </div>
               <div className=" flex flex-col gap-6">
