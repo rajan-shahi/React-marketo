@@ -63,8 +63,6 @@ const Footer = () => {
           <p>London SF</p>
           <p>Cockfosters BP</p>
           <p>Los Angeles</p>
-          <p>Chicago</p>
-          <p>Las Vegas</p>
           <p>Las Vegas Albarto</p>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
@@ -73,9 +71,8 @@ const Footer = () => {
           <p>Term & Conditions</p>
           <p>Shipping</p>
           <p>Privacy Policy</p>
-          <p>Help</p>
           <p>Products Return</p>
-          <p>FAQS</p>
+       
         </div>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
