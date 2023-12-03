@@ -11,7 +11,7 @@ import Feat1 from "../assets/feature1-min-1.jpg";
 import Feat2 from "../assets/feature2-min-1.jpg";
 const View = () => {
   return (
-    <div className=" flex flex-col items-center justify-center pt-20 py-10">
+    <div className=" flex flex-col items-center justify-center">
       <div className=" flex justify-center items-center h-[50vh] md:w-10/12 w-full  bg-[#ELCBD7] md:px-10">
         <Swiper
           spaceBetween={30}

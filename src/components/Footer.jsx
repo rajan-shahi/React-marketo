@@ -6,6 +6,7 @@ import singapur from "../assets/singapore-1.png";
 import usa from "../assets/usa-1.png";
 import brazil from "../assets/brazil-1.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import Copyright from "./Copyright";
 const Footer = () => {
   return (
     <div className=" flex  flex-col bg-gray-300 justify-center">
@@ -84,6 +85,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <Copyright />
     </div>
   );
 };
