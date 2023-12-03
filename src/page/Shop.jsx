@@ -103,7 +103,7 @@ const Shop = () => {
             </div>
             <div className="  md:px-0 px-4 grid md:grid-cols-4   gap-4">
               {shoes.map((shoe,index)=>(
-                <div key={index} className=" border hover:shadow-md duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
+                <div key={index} className=" border hover:shadow-md hover:shadow-slate-300 duration-500 flex flex-col gap-4 py-5 px-4  rounded-sm">
                   <img src={shoe.img} alt="" className=" cursor-pointer " />
                   <h1 className=" text-md text-gray-600 font-bold cursor-pointer  hover:text-red-700 hover:font-bold duration-500 ">{shoe.name}</h1>
                   <h1 className=" text-red-600 font-bold  text-md cursor-pointer ">{shoe.price}</h1>
