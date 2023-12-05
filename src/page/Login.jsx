@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className=" flex justify-center   ">
-      <div className=" flex   flex-col gap-2 w-full md:w-3/12 shadow-lg   shadow-gray-300  pb-16 rounded-lg ">
+      <div className=" flex   flex-col gap-2 w-full md:w-3/12  ">
         <div className=" flex flex-col justify-center items-center">
           <h1 className=" text-2xl text-gray-600">Login</h1>
           <h2 className=" text-sm text-gray-500">
-            Don't have an account?{" "}
+            Don't have an account ?{" "}
             <span className=" text-blue-500 cursor-pointer text-lg hover:text-orange-400">
               <Link to={"/signup"}> sign up</Link>
             </span>
           </h2>
         </div>
         <div className=" flex  md:px-4 flex-col md:gap-5  gap-6 justify-center items-center">
-          <div className=" flex flex-col">
+          <div className=" flex gap-1 flex-col">
             <span className=" text-md text-gray-600">Email</span>
             <input
               name="email"
@@ -26,7 +26,7 @@ const Login = () => {
               placeholder="Enter Your email"
             />
           </div>
-          <div className=" flex flex-col">
+          <div className=" flex gap-1 flex-col">
             <span className=" text-md text-gray-600 ">Password</span>
             <input
               name="password"
