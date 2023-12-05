@@ -121,7 +121,7 @@ const filters = [
   {
     img: f3,
     name: "Notebook Blgscreen Z51-70 40k1254",
-    price: "$199.00",
+    price: "$198.00",
   },
 ];
 
