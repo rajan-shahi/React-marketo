@@ -53,7 +53,7 @@ const Navbar = () => {
               </h1>
               Rajan bahdur shahi
               Gita kumari Bista
-              Loki Chaulagain
+              
               
             </div>
           </Link>
