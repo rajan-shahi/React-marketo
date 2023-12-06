@@ -51,10 +51,6 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Login
               </h1>
-              Rajan bahdur shahi
-              Gita kumari Bista
-              
-              
             </div>
           </Link>
         </div>
