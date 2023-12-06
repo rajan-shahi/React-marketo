@@ -37,6 +37,7 @@ const Navbar = () => {
               <h1 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400">
                 Blog
               </h1>
+              loki
             </div>
           </Link>
           <Link to={"/shop"}>
