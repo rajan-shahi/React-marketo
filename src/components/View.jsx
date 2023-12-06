@@ -9,6 +9,7 @@ import blue from "../assets/blue_shoe-min.png";
 import yellow from "../assets/yellow-shoe.png";
 import Feat1 from "../assets/feature1-min-1.jpg";
 import Feat2 from "../assets/feature2-min-1.jpg";
+
 const View = () => {
   return (
     <div className=" flex flex-col items-center justify-center">
@@ -40,6 +41,7 @@ const View = () => {
                       {view.model}
                     </h2>
                     <p className=" text-gray-900 py-3">{view.desc}</p>
+                  
                     <button className="  flex  justify-center  text-xs items-center py-4   w-56 bg-black text-white hover:bg-orange-300">
                       {view.button}
                     </button>
