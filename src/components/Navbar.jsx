@@ -29,13 +29,7 @@ const Navbar = () => {
                 className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
               >
                 Home
-                {menu === "Home" ? (
-                  <span className=" text-orange-600 font-bold">
-                    <hr />
-                  </span>
-                ) : (
-                  <></>
-                )}
+                {menu === "Home" ? <hr /> : <></>}
               </h2>
             </div>
           </Link>
