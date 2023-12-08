@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import logo from "../assets/logo-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNev] = useState(false);
   const handleClick = () => setNev(!nav);
   const [menu, setMenu] = useState("Home");
+  const location = useLocation();
+  console.log(location.pathname);
 
   return (
     <div name="navbar" className=" md:pb-10 pb-20">
@@ -102,9 +104,12 @@ const Navbar = () => {
               }
             >
               <Link to={"/"}>
-                <li
-                  onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-2xl  text-gray-200"
+                <li    onClick={handleClick}
+                  className={`${
+                    location.pathname === "/"
+                      ? " text-red-600 "
+                      : "text-gray-200"
+                  } cursor-pointer py-4 text-2xl  `}
                 >
                   {" "}
                   Home
@@ -113,7 +118,7 @@ const Navbar = () => {
               <Link to={"/aboutUs"}>
                 <li
                   onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-2xl  text-gray-200"
+                 className={`${location.pathname === "/aboutUs" ? "text-red-500" : "text-gray-200"} cursor-pointer py-4 text-2xl `}
                 >
                   {" "}
                   About Us
