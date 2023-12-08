@@ -12,42 +12,42 @@ export const discounts30 = {
       image: sho5,
       model: "Helvetical screen-photo",
       p: "2QF-621XLP",
-      price: "$400-$130.00",
+      price: "$100",
     },
     {
       image: sho6,
       name: "Notebook",
       model: "Notebook screen Z51-",
       p: "70 40k60",
-      price: "&49449.00",
+      price: "$449.00",
     },
     {
       image: sho1,
       name: "Head Phones",
       model: "ASUS laptop inspire 2016",
       p: "JHTBUK",
-      price: "&42012.00",
+      price: "$212.00",
     },
     {
       image: sho2,
 
       model: "Notebook screen Z51-",
       p: "70 40k60",
-      price: "&49449.00",
+      price: "$349.00",
     },
     {
       image: sho3,
 
       model: "Notebook screen Z51-",
       p: "725lku-210k6",
-      price: "&102362.00",
+      price: "$362.00",
     },
     {
       image: sho4,
 
       model: "ASUS laptop inspire 2016",
       p: "40klKPD45",
-      price: "&10,000.00",
+      price: "$200.00",
     },
   ],
 };
@@ -60,42 +60,42 @@ export const discounts15 = {
 
       model: "ASUS laptop inspire 2016 ",
       p: "2QF-621XLP",
-      price: "$110-$240.00",
+      price: "$199",
     },
     {
       image: sho3,
       name: "Notebook Blgscreen Z51-70 ",
       model: "Notebook screen Z51-",
       p: "40K6009",
-      price: "&49449.00-10.022",
+      price: "$99",
     },
     {
       image: sho2,
       name: "NoteBook",
       model: "ASUS laptop inspire 2016",
       p: "JHTBUK40k",
-      price: "&42012.00-40k120",
+      price: "$125",
     },
     {
       image: sho1,
 
       model: "Notebook screen Z51-",
       p: "70 4059695k60",
-      price: "&49449.00",
+      price: "$230",
     },
     {
       image: sho6,
 
       model: "Notebook screen Z51-",
       p: "725lku-21560k6",
-      price: "&102362.00-100k",
+      price: "$198",
     },
     {
       image: sho5,
 
       model: "ASUS laptop inspire 2016-",
       p: "40kl-LOK-KPD45",
-      price: "&10,000.00",
+      price: "$299",
     },
   ],
 };
@@ -107,42 +107,42 @@ export const discounts20 = {
 
       model: "Notebook screen Z51-",
       p: "2QF-621XLP",
-      price: "$400-$130.00",
+      price: "$263",
     },
     {
       image: sho4,
       name: "ASUS laptop inspire 2016",
       model: "Notebook screen Z51-",
       p: "70 40k60",
-      price: "&49449.00",
+      price: "$178",
     },
     {
       image: sho3,
       name: "Head Phones",
       model: "Notebook screen Z51-",
       p: "JHTBUK",
-      price: "&42012.00",
+      price: "$52",
     },
     {
       image: sho2,
 
       model: "ASUS laptop inspire 2016",
       p: "70 40k60",
-      price: "&49449.00",
+      price: "$63",
     },
     {
       image: sho1,
 
       model: "Notebook screen Z51-",
       p: "725lku-210k6",
-      price: "&102362.00-102",
+      price: "$399",
     },
     {
       image: sho6,
 
       model: "ASUS laptop inspire 2016",
       p: "40klKPD45 plk",
-      price: "&10,000.00-1023",
+      price: "$293",
     },
   ],
 };
@@ -154,42 +154,39 @@ export const discounts40 = {
 
       model: "ASUS laptop inspire 2016",
       p: "2QF-621XLP-1203",
-      price: "$400-$130.00",
+      price: "$630",
     },
     {
       image: sho5,
       name: "Notebook",
       model: "Notebook screen Z51-",
       p: "70 PLZ 40k60",
-      price: "&49449.00",
+      price: "$500",
     },
     {
       image: sho4,
       name: "ASUS laptop inspire 2016",
       model: "Notebook screen Z51-",
       p: "JHTBUK-6320",
-      price: "&42012.00",
+      price: "$499",
     },
     {
       image: sho2,
-
       model: "Notebook screen Z51-",
       p: "70 -120-40k60",
-      price: "&49449.00",
+      price: "$293",
     },
     {
       image: sho3,
-
       model: "ASUS laptop inspire 2016",
       p: "725lku-210k6",
-      price: "&102362.00-362KL",
+      price: "$799",
     },
     {
       image: sho1,
-
       model: "Notebook screen Z51-",
       p: "40klKPD45",
-      price: "&10,000.00",
+      price: "$399",
     },
   ],
 };
