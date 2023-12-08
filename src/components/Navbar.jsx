@@ -7,7 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNev] = useState(false);
   const handleClick = () => setNev(!nav);
-  const [menu, setMenu] = useState("Home");
   const location = useLocation();
   console.log(location.pathname);
 
@@ -25,61 +24,47 @@ const Navbar = () => {
           <Link to={"/"}>
             <div className=" flex gap-1 items-center">
               <h2
-                onClick={() => {
-                  setMenu("Home");
-                }}
-                className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
+                className={`${
+                  location.pathname === "/" ? " text-red-600 " : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}
               >
                 Home
-                {menu === "Home" ? <hr /> : <></>}
               </h2>
             </div>
           </Link>
           <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
-              <h2
-                onClick={() => {
-                  setMenu("About Us");
-                }}
-                className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
-              >
-                About Us{menu === "About Us" ? <hr /> : <></>}
+              <h2  className={`${
+                  location.pathname === "/aboutUs" ? " text-red-600 " : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}>
+                About Us
               </h2>
             </div>
           </Link>
           <Link to={"/blog"}>
             <div className=" flex gap-1 items-center">
-              <h2
-                onClick={() => {
-                  setMenu("Blog");
-                }}
-                className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
-              >
-                Blog{menu === "Blog" ? <hr /> : <></>}
+              <h2  className={`${
+                  location.pathname === "/blog" ? " text-red-600 " : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}>
+                Blog
               </h2>
             </div>
           </Link>
           <Link to={"/shop"}>
             <div className=" flex gap-1 items-center">
-              <h2
-                onClick={() => {
-                  setMenu("Shop");
-                }}
-                className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
-              >
-                Shop{menu === "Shop" ? <hr /> : <></>}
+              <h2  className={`${
+                  location.pathname === "/shop" ? " text-red-600 " : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}>
+                Shop
               </h2>
             </div>
           </Link>
           <Link to={"/login"}>
             <div className=" flex gap-1 items-center">
-              <h2
-                onClick={() => {
-                  setMenu("Login");
-                }}
-                className=" text-sm font-bold text-gray-600 cursor-pointer hover:text-orange-400"
-              >
-                Login{menu === "Login" ? <hr /> : <></>}
+              <h2  className={`${
+                  location.pathname === "/login" ? " text-red-600 " : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}>
+                Login
               </h2>
             </div>
           </Link>
