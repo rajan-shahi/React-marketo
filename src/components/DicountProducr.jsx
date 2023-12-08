@@ -10,6 +10,7 @@ import {
 const DicountProducr = () => {
   const [list, setList] = useState(discounts40);
   console.log(list);
+  
   return (
     <div className=" flex justify-center pt-10 md:pb-20 md:px-0 px-4">
       <div className=" md:flex justify-center  gap-10 w-full md:w-10/12">
@@ -26,14 +27,13 @@ const DicountProducr = () => {
             <div className="  md:pt-0 pt-2 flex md:gap-8 justify-between text-lg text-gray-500">
               <h2
                 onClick={() => setList(discounts40)}
-                className=" cursor-pointer font-bold  hover:text-red-700 "
+                className={`${
+                  list.name === "dis40" ? "text-red-700" : ""
+                } cursor-pointer  font-bold `}
               >
                 40% Off
               </h2>
-              <h2
-                onClick={() => setList(discounts57)}
-                className=" cursor-pointer  font-bold  hover:text-red-700 "
-              >
+              <h2 onClick={() => setList(discounts57)} className="  ">
                 57% Off
               </h2>
               <h3
@@ -52,7 +52,7 @@ const DicountProducr = () => {
           </div>
           {/* card */}
           <div className=" grid md:grid-cols-3 md:justify-between  gap-5  py-6">
-            {list.map((discounts40, index) => (
+            {list?.items?.map((discounts40, index) => (
               <div
                 key={index}
                 className=" flex flex-col justify-center   hover:shadow-lg hover:shadow-slate-200 px-4 pb-8"
