@@ -115,18 +115,18 @@ const populars = [
   {
     image: sho5,
     model: " ASUS laptop inspire 2016 2QF-621XPL",
-    price: "$110.00-$240.00",
+    price: "$299",
   },
   {
     image: sho6,
     model: "Notebook blgscreen Z51-70 40K6009",
-    price: "$1,500.00",
+    price: "$150",
   },
 
   {
     image: sho4,
     model: "Notebook blgscreen Z51-70 40K6004",
-    price: "$4,000.00",
+    price: "$299",
   },
 ];
 
@@ -134,7 +134,7 @@ const recents = [
   {
     image: sho1,
     model: " ASUS laptop inspire 2016 2QF-621XPL",
-    price: "$110.00-$240.00",
+    price: "$399",
   },
   {
     image: sho5,
@@ -145,7 +145,7 @@ const recents = [
   {
     image: sho3,
     model: "Notebook blgscreen Z51-70 40K6004",
-    price: "$4,000.00",
+    price: "$180",
   },
 ];
 
@@ -153,17 +153,17 @@ const sellings = [
   {
     image: sho4,
     model: " ASUS laptop inspire 2016 2QF-621XPL",
-    price: "$110.00-$240.00",
+    price: "$499",
   },
   {
     image: sho2,
     model: "Notebook blgscreen Z51-70 40K6009",
-    price: "$1,500.00",
+    price: "$270",
   },
 
   {
     image: sho6,
     model: "Notebook blgscreen Z51-70 40K6004",
-    price: "$4,000.00",
+    price: "$365",
   },
 ];
