@@ -111,7 +111,7 @@ const filters = [
   {
     img: f1,
     name: "Mini 3D Glass",
-    price: "$220",
+    price: "$320",
   },
   {
     img: f2,
