@@ -111,17 +111,17 @@ const filters = [
   {
     img: f1,
     name: "Mini 3D Glass",
-    price: "$220.00",
+    price: "$220",
   },
   {
     img: f2,
     name: "Notebook Blgscreen Z51-70 40K6958",
-    price: "$229.00",
+    price: "$229",
   },
   {
     img: f3,
     name: "Notebook Blgscreen Z51-70 40k1254",
-    price: "$198.00",
+    price: "$198",
   },
 ];
 
@@ -170,55 +170,55 @@ const categories = [
   {
     img: f1,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$196.000",
+    price:"$196",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s1,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$4,00.000",
+    price:"$403",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s2,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$16.00 – $240.00",
+    price:"$160",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s3,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$1,500.00",
+    price:"$159",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s4,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$220.00",
+    price:"$223",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s5,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$120.00 -$250.000",
+    price:"$120",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: f2,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$199.00",
+    price:"$199",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: f3,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$538.00",
+    price:"$380",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
   {
     img: s3,
     name: "ASUS Laptop Inspire 2016 2QF-621XPL",
-    price:"$150.00",
+    price:"$599",
     desc:"About the product All Excusive Comes with Marketo Them. More Power With Extended Features.Multiple nice demo with huge extensive...."
   },
  
