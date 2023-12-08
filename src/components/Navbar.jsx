@@ -127,7 +127,7 @@ const Navbar = () => {
               <Link to={"/shop"}>
                 <li
                   onClick={handleClick}
-                  className="  hover:text-orange-400 cursor-pointer py-4 text-2xl  text-gray-200"
+                  className={`${location.pathname ==="/shop" ? "text-red-500" : "text-gray-200"} cursor-pointer py-4 text-2xl`}
                 >
                   {" "}
                   Shop
