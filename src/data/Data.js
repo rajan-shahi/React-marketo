@@ -37,15 +37,13 @@ export const discounts30 = {
     },
     {
       image: sho3,
-
       model: "Notebook screen Z51-",
       p: "725lku-210k6",
       price: "$362",
     },
     {
       image: sho2,
-
-      model: "ASUS laptop inspire 2016",
+      model: "HD laptop inspire 2016",
       p: "40klKPD45",
       price: "$200",
     },
@@ -58,7 +56,7 @@ export const discounts15 = {
     {
       image: sho4,
 
-      model: "ASUS laptop inspire 2016 ",
+      model: "Branded-Laptop 2016 ",
       p: "2QF-621XLP",
       price: "$199",
     },
