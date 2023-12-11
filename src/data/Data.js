@@ -63,7 +63,7 @@ export const discounts15 = {
     {
       image: sho3,
       name: "Notebook Blgscreen Z51-70 ",
-      model: "Notebook screen Z51-",
+      model: "Original Shoes 2022",
       p: "40K6009",
       price: "$99",
     },
@@ -77,7 +77,7 @@ export const discounts15 = {
     {
       image: sho1,
 
-      model: "Notebook screen Z51-",
+      model: "Branded-Shoes 2022",
       p: "70 4059695k60",
       price: "$230",
     },
