@@ -127,8 +127,8 @@ export const discounts20 = {
       image: sho6,
 
       model: "ASUS laptop inspire 2016",
-      p: "70 40k60",
-      price: "$63",
+      p: "SlK 40k60",
+      price: "$163",
     },
     {
       image: sho2,
