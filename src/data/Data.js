@@ -31,7 +31,7 @@ export const discounts30 = {
     {
       image: sho4,
 
-      model: "Notebook screen Z51-",
+      model: "Camera-screen JlK03",
       p: "70 40k60",
       price: "$349",
     },
