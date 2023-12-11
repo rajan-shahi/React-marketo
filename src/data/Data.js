@@ -118,7 +118,7 @@ export const discounts20 = {
       image: sho5,
       name: "Head Phones",
       model: "Notebook screen Z51-",
-      p: "JHTBUK",
+      p: "JHTBUK-01",
       price: "$52",
     },
     {
