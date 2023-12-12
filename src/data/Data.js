@@ -30,9 +30,8 @@ export const discounts30 = {
     },
     {
       image: sho4,
-
       model: "Camera-screen JlK03",
-      p: "70 40k60",
+      p: " 456- 40k60",
       price: "$349",
     },
     {
