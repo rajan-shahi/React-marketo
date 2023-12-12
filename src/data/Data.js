@@ -55,7 +55,7 @@ export const discounts15 = {
     {
       image: sho4,
 
-      model: "Branded-Laptop 2016 ",
+      model: "Branded-Nike-Shoes 2016 ",
       p: "2QF-621XLP",
       price: "$199",
     },
