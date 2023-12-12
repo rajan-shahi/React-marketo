@@ -26,7 +26,7 @@ export const discounts30 = {
       name: "Head Phones",
       model: "ASUS laptop inspire 2023",
       p: "JHTBUK",
-      price: "$212",
+      price: "$202",
     },
     {
       image: sho4,
