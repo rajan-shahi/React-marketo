@@ -17,14 +17,14 @@ export const discounts30 = {
     {
       image: sho6,
       name: "Notebook",
-      model: "Notebook screen Z51-",
+      model: "Notebook screen Z51-2023",
       p: "70 40k60",
       price: "$449",
     },
     {
       image: sho1,
       name: "Head Phones",
-      model: "ASUS laptop inspire 2016",
+      model: "ASUS laptop inspire 2023",
       p: "JHTBUK",
       price: "$212",
     },
