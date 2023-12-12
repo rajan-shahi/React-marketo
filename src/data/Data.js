@@ -11,7 +11,7 @@ export const discounts30 = {
     {
       image: sho5,
       model: "Helvetical screen-photo",
-      p: "2QF-621XLP",
+      p: "2QF-6262XLP",
       price: "$100",
     },
     {
