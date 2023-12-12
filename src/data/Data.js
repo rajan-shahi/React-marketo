@@ -17,7 +17,7 @@ export const discounts30 = {
     {
       image: sho6,
       name: "Notebook",
-      model: "Latest-SHoes",
+      model: "Latest-Shoes 2022",
       p: "70 40k60",
       price: "$449",
     },
@@ -30,7 +30,7 @@ export const discounts30 = {
     },
     {
       image: sho4,
-      model: "Nike-Shoes-2022",
+      model: "Nike-Shoes-2019",
       p: " 456- 40k60",
       price: "$349",
     },
@@ -98,42 +98,39 @@ export const discounts20 = {
     {
       image: sho3,
 
-      model: "Notebook screen Z51-",
+      model: "Gold-Start Shoes 2022 ",
       p: "2QF-621XLP",
       price: "$263",
     },
     {
       image: sho1,
-      name: "ASUS laptop inspire 2016",
-      model: "Notebook screen Z51-",
+      name: "MNKL-2024",
+      model: "Air-Latest-shoes-2023",
       p: "70 40k60",
       price: "$178",
     },
     {
       image: sho5,
       name: "Head Phones",
-      model: "Notebook screen Z51-",
+      model: "Nike-Shoes2020",
       p: "JHTBUK-01",
       price: "$52",
     },
     {
       image: sho6,
-
-      model: "ASUS laptop inspire 2016",
+      model: "Nepali-Magic-shoes 2023",
       p: "SlK 40k60",
       price: "$163",
     },
     {
       image: sho2,
-
-      model: "Notebook screen Z51-",
+      model: "Air-Shoes-2024",
       p: "725lku-210k6",
       price: "$399",
     },
     {
       image: sho4,
-
-      model: "ASUS laptop inspire 2016",
+      model: "Nike-Shoes-2023",
       p: "40klKPD45 plk",
       price: "$293",
     },
