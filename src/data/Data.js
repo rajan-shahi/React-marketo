@@ -61,28 +61,26 @@ export const discounts15 = {
     },
     {
       image: sho3,
-      name: "Notebook Blgscreen Z51-70 ",
+      name: "Nike-SHoes Z51-70 ",
       model: "Original Shoes 2022",
       p: "40K6009",
       price: "$99",
     },
     {
       image: sho2,
-      name: "NoteBook",
+      name: "GoldStart-shoes",
       model: "ASUS laptop inspire 2016",
       p: "JHTBUK40k",
       price: "$125",
     },
     {
       image: sho1,
-
       model: "Branded-Shoes 2022",
       p: "70 4059695k60",
       price: "$230",
     },
     {
       image: sho6,
-
       model: "Notebook screen Z51-",
       p: "725lku-21560k6",
       price: "$198",
@@ -90,7 +88,7 @@ export const discounts15 = {
     {
       image: sho5,
 
-      model: "ASUS laptop inspire 2016-",
+      model: "New-Nike Shoes-2023",
       p: "40kl-LOK-KPD45",
       price: "$299",
     },
