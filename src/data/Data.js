@@ -10,33 +10,33 @@ export const discounts30 = {
   items: [
     {
       image: sho5,
-      model: "Helvetical screen-photo",
+      model: "Branded-New-Shoes-2023",
       p: "2QF-6262XLP",
       price: "$100",
     },
     {
       image: sho6,
       name: "Notebook",
-      model: "Notebook screen Z51-2023",
+      model: "Latest-SHoes",
       p: "70 40k60",
       price: "$449",
     },
     {
       image: sho1,
       name: "Head Phones",
-      model: "ASUS laptop inspire 2023",
+      model: "GoldStar-shoes 2023",
       p: "JHTBUK",
       price: "$202",
     },
     {
       image: sho4,
-      model: "Camera-screen JlK03",
+      model: "Nike-Shoes-2022",
       p: " 456- 40k60",
       price: "$349",
     },
     {
       image: sho3,
-      model: "Notebook screen Z51-",
+      model: "Air-Shoes-2021",
       p: "725lku-210k6",
       price: "$362",
     },
@@ -54,7 +54,6 @@ export const discounts15 = {
   items: [
     {
       image: sho4,
-
       model: "Branded-Nike-Shoes 2016 ",
       p: "2QF-621XLP",
       price: "$199",
@@ -69,7 +68,7 @@ export const discounts15 = {
     {
       image: sho2,
       name: "GoldStart-shoes",
-      model: "ASUS laptop inspire 2016",
+      model: "Latest-shoes-2022",
       p: "JHTBUK40k",
       price: "$125",
     },
@@ -81,13 +80,12 @@ export const discounts15 = {
     },
     {
       image: sho6,
-      model: "Notebook screen Z51-",
+      model: "New-Branded-Shoes",
       p: "725lku-21560k6",
       price: "$198",
     },
     {
       image: sho5,
-
       model: "New-Nike Shoes-2023",
       p: "40kl-LOK-KPD45",
       price: "$299",
