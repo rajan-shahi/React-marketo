@@ -120,7 +120,7 @@ const shows = [
     image: sho2,
     name: "Goldstar-Shoes",
     model: "Latest-Shoes-2022 to 2024",
-    price: "$490",
+    price: "$590",
   },
   {
     image: sho3,
