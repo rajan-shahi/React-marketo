@@ -126,7 +126,7 @@ const shows = [
     image: sho3,
     name: "Air-shoes-2022",
     model: "New-Air-Shoes 2022 to 2026",
-    price: "$320",
+    price: "$423",
   },
   {
     image: sho4,
