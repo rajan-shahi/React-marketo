@@ -18,11 +18,11 @@ const Products = () => {
             Most Popular Products
           </h1>
         </div>
-        <div className=" md:flex justify-center   gap-4 ">
+        <div className="   grid md:grid-cols-4 justify-center gap-4 ">
           {shows.map((show, index) => (
             <div
               key={index}
-              className="  group hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
+              className=" group hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
             >
               <div className=" flex">
                 <img src={show.image} alt="" />
@@ -32,7 +32,7 @@ const Products = () => {
                   </h1>
                 </div>{" "}
               </div>
-          
+
               <div className=" text-gray-400 text-sm">
                 <h1>{show.name}</h1>
               </div>
@@ -112,25 +112,25 @@ const shows = [
   {
     image: sho1,
     name: "Nike Shoes-2023",
-    model: "Notebook Blgscreen Z51-70",
+    model: "New Branded-Shoes-2023 to 2025",
     price: "$199",
   },
   {
     image: sho2,
     name: "Goldstar-Shoes",
-    model: "Notebook Blgscreen Z51-70",
+    model: "Latest-Shoes-2022 to 2024",
     price: "$490",
   },
   {
     image: sho3,
     name: "Air-shoes-2022",
-    model: "Notebook Blgscreen Z51-70",
+    model: "New-Air-Shoes 2022 to 2026",
     price: "$320",
   },
   {
     image: sho4,
     name: "New-Latest-Shoes-2024",
-    model: "Notebook Blgscreen Z51-70",
+    model: "New Models Shoes-2024 to 2025",
     price: "$267",
   },
 ];
