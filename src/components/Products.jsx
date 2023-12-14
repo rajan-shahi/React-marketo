@@ -111,30 +111,26 @@ export default Products;
 const shows = [
   {
     image: sho1,
-    name: "Head Phones",
+    name: "Nike Shoes-2023",
     model: "Notebook Blgscreen Z51-70",
-    p: "70SXL",
     price: "$199",
   },
   {
     image: sho2,
-    name: "Mobile Projector",
+    name: "Goldstar-Shoes",
     model: "Notebook Blgscreen Z51-70",
-    p: "70 40k60",
     price: "$490",
   },
   {
     image: sho3,
-    name: "Further Products",
+    name: "Air-shoes-2022",
     model: "Notebook Blgscreen Z51-70",
-    p: "70k6",
     price: "$320",
   },
   {
     image: sho4,
-    name: "Featured Product Laptop",
+    name: "New-Latest-Shoes-2024",
     model: "Notebook Blgscreen Z51-70",
-    p: "40k45",
     price: "$267",
   },
 ];
