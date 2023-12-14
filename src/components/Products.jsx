@@ -9,6 +9,7 @@ import { BsArrow90DegDown } from "react-icons/bs";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { FiHeadphones } from "react-icons/fi";
 import { CiHeart } from "react-icons/ci";
+
 const Products = () => {
   return (
     <div className=" flex  md:py-10 justify-center ">
@@ -131,6 +132,6 @@ const shows = [
     image: sho4,
     name: "New-Latest-Shoes-2024",
     model: "New Models Shoes-2024 to 2025",
-    price: "$267",
+    price: "$261",
   },
 ];
