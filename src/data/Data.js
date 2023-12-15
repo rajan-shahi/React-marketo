@@ -63,7 +63,7 @@ export const discounts15 = {
       name: "Nike-SHoes Z51-70 ",
       model: "Original Shoes 2022",
       p: "40K6009",
-      price: "$99",
+      price: "$182",
     },
     {
       image: sho2,
