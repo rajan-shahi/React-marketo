@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import sho1 from "../assets/sho1.jpg";
 import sho2 from "../assets/sho2.jpg";
 import sho3 from "../assets/sho3.jpg";
@@ -10,7 +10,14 @@ import { RiSecurePaymentFill } from "react-icons/ri";
 import { FiHeadphones } from "react-icons/fi";
 import { CiHeart } from "react-icons/ci";
 
+
 const Products = () => {
+  
+const [save,setSave] = useState(false);
+const handleclick =()=> {
+setSave(shows.image)
+}
+
   return (
     <div className=" flex  md:py-10 justify-center ">
       <div className=" flex  md:px-0 px-4 justify-center  flex-col gap-3 w-full md:w-10/12">
@@ -26,7 +33,7 @@ const Products = () => {
               className=" group hover:border-gray-200 flex md:justify-start justify-center md:items-start items-center  flex-col gap-1 border-2  border-gray-100 px-6 py-8"
             >
               <div className=" flex">
-                <img src={show.image} alt="" />
+                <img onClick={handleclick} src={show.image} alt="" />
                 <div className="  opacity-0 group-hover:opacity-100  duration-1000">
                   <h1 className=" text-red-700 font-bold flex justify-start">
                     <CiHeart size={20} />

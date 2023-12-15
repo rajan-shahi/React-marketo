@@ -8,6 +8,7 @@ import team41 from "../assets/team_41.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const AboutUS = () => {
   return (
     
@@ -133,8 +134,9 @@ const AboutUS = () => {
               type="email"
               placeholder=" Enter your email here"
             />
-            <button className=" py-3 px-8   bg-blue-600 hover:bg-green-600 text-white">
-              Submit
+          
+            <button className=" py-3 px-8   bg-blue-600 hover:bg-green-600 text-white">  <Link to={"/"}>
+              Submit</Link>
             </button>
           </div> 
         </div>
