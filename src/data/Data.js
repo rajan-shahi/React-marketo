@@ -114,7 +114,7 @@ export const discounts20 = {
       name: "Head Phones",
       model: "Nike-Shoes2020",
       p: "JHTBUK-01",
-      price: "$52",
+      price: "$152",
     },
     {
       image: sho6,
