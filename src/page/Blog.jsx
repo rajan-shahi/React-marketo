@@ -32,9 +32,6 @@ const Blog = () => {
                 quae ab illo inventore veritatis et quasi architecto beatae
                 vitae dicta sunt explicabo. Nemo enim ipsam voluptatem…
               </h2>
-              <button className=" flex justify-start bg-blue-600  items-center px-7 py-3 w-[200px] text-white font-bold hover:bg-green-500 rounded-md">
-                Continue Reading
-              </button>
             </div>
           </div>
           {/* mid section */}
@@ -60,9 +57,6 @@ const Blog = () => {
                 quae ab illo inventore veritatis et quasi architecto beatae
                 vitae dicta sunt explicabo. Nemo enim ipsam voluptatem…
               </h2>
-              <button className=" flex justify-start bg-blue-600  items-center px-7 py-3 w-[200px] text-white font-bold hover:bg-green-500 rounded-md">
-                Continue Reading
-              </button>
             </div>
           </div>
         </div>
@@ -90,9 +84,6 @@ const Blog = () => {
                 quae ab illo inventore veritatis et quasi architecto beatae
                 vitae dicta sunt explicabo. Nemo enim ipsam voluptatem…
               </h2>
-              <button className=" flex justify-start bg-blue-600  items-center px-7 py-3 w-[200px] text-white font-bold hover:bg-green-500 rounded-md">
-                Continue Reading
-              </button>
             </div>
             <div className=" md:pt-10">
               <div>
@@ -116,9 +107,6 @@ const Blog = () => {
                   ipsa quae ab illo inventore veritatis et quasi architecto
                   beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem…
                 </h2>
-                <button className=" flex justify-start bg-blue-600  items-center px-7 py-3 w-[200px] text-white font-bold hover:bg-green-500 rounded-md">
-                  Continue Reading
-                </button>
               </div>
             </div>
           </div>
