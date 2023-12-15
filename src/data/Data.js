@@ -12,7 +12,7 @@ export const discounts30 = {
       image: sho5,
       model: "Branded-New-Shoes-2023",
       p: "2QF-6262XLP",
-      price: "$100",
+      price: "$199",
     },
     {
       image: sho6,
