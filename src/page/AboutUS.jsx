@@ -178,17 +178,17 @@ const teams = [
   {
     image: team41,
     post: "CEO",
-    name: "William Hanah",
+    name: "Tapendra Shahi",
   },
 
   {
     image: team11,
     post: "ADVISOR",
-    name: "JInglo Jelian",
+    name: "Menu Bhandari",
   },
   {
     image: team21,
     post: "DESIGNER",
-    name: "Jony Smith",
+    name: "Jun parsad Rokaya",
   },
 ];
