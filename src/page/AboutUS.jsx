@@ -151,12 +151,12 @@ const teams = [
   {
     image: team11,
     post: "FOUNDER",
-    name: "Tony Williamson",
+    name: "Rajan Bahadur Shahi",
   },
   {
     image: team21,
     post: "CEO",
-    name: "William Hanah",
+    name: "Loki Chaulgaian",
   },
 
   {
