@@ -162,18 +162,18 @@ const teams = [
   {
     image: team31,
     post: "ADVISOR",
-    name: "JInglo Jelian",
+    name: "Nayam Thapa",
   },
   {
     image: team41,
     post: "DESIGNER",
-    name: "Jony Smith",
+    name: "Gita Bista",
   },
 
   {
     image: team31,
-    post: "FOUNDER",
-    name: "Tony Williamson",
+    post: "Editor",
+    name: "Akendra Gautam",
   },
   {
     image: team41,
