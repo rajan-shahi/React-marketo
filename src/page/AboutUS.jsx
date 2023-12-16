@@ -162,12 +162,12 @@ const teams = [
   {
     image: team31,
     post: "ADVISOR",
-    name: "Nayam Thapa",
+    name: "Jun parsad Rokaya",
   },
   {
     image: team41,
     post: "DESIGNER",
-    name: "Gita Bista",
+    name: "Amit Paudel",
   },
 
   {
@@ -184,11 +184,11 @@ const teams = [
   {
     image: team11,
     post: "ADVISOR",
-    name: "Menu Bhandari",
+    name: "Saroj Rokaya",
   },
   {
     image: team21,
     post: "DESIGNER",
-    name: "Jun parsad Rokaya",
+    name: "Disnesh Yadav",
   },
 ];
