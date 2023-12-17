@@ -38,7 +38,7 @@ export const discounts30 = {
       image: sho3,
       model: "Air-Shoes-2021",
       p: "725lku-210k6",
-      price: "$362",
+      price: "$521",
     },
     {
       image: sho2,
