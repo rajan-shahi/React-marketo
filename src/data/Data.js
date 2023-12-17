@@ -26,7 +26,7 @@ export const discounts30 = {
       name: "Head Phones",
       model: "GoldStar-shoes 2023",
       p: "JHTBUK",
-      price: "$200",
+      price: "$208",
     },
     {
       image: sho4,
