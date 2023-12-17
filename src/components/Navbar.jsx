@@ -34,36 +34,52 @@ const Navbar = () => {
           </Link>
           <Link to={"/aboutUs"}>
             <div className=" flex gap-1 items-center">
-              <h2  className={`${
-                  location.pathname === "/aboutUs" ? " text-red-600 " : "text-gray-600"
-                } text-sm font-bold cursor-pointe `}>
+              <h2
+                className={`${
+                  location.pathname === "/aboutUs"
+                    ? " text-red-600 "
+                    : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}
+              >
                 About Us
               </h2>
             </div>
           </Link>
           <Link to={"/blog"}>
             <div className=" flex gap-1 items-center">
-              <h2  className={`${
-                  location.pathname === "/blog" ? " text-red-600 " : "text-gray-600"
-                } text-sm font-bold cursor-pointe `}>
+              <h2
+                className={`${
+                  location.pathname === "/blog"
+                    ? " text-red-600 "
+                    : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}
+              >
                 Blog
               </h2>
             </div>
           </Link>
           <Link to={"/shop"}>
             <div className=" flex gap-1 items-center">
-              <h2  className={`${
-                  location.pathname === "/shop" ? " text-red-600 " : "text-gray-600"
-                } text-sm font-bold cursor-pointe `}>
+              <h2
+                className={`${
+                  location.pathname === "/shop"
+                    ? " text-red-600 "
+                    : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}
+              >
                 Shop
               </h2>
             </div>
           </Link>
           <Link to={"/login"}>
             <div className=" flex gap-1 items-center">
-              <h2  className={`${
-                  location.pathname === "/login" ? " text-red-600 " : "text-gray-600"
-                } text-sm font-bold cursor-pointe `}>
+              <h2
+                className={`${
+                  location.pathname === "/login"
+                    ? " text-red-600 "
+                    : "text-gray-600"
+                } text-sm font-bold cursor-pointe `}
+              >
                 Login
               </h2>
             </div>

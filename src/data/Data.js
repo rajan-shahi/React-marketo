@@ -19,7 +19,7 @@ export const discounts30 = {
       name: "Notebook",
       model: "Latest-Shoes 2022",
       p: "70 40k60",
-      price: "$365",
+      price: "$465",
     },
     {
       image: sho1,
