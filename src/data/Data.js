@@ -70,7 +70,7 @@ export const discounts15 = {
       name: "GoldStart-shoes",
       model: "Latest-shoes-2022",
       p: "JHTBUK40k",
-      price: "$125",
+      price: "$345",
     },
     {
       image: sho1,
