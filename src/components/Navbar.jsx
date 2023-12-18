@@ -85,6 +85,7 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
+
         {/* mobile menu */}
         <div className=" flex  flex-col md:hidden">
           <div className=" flex  items-center justify-between cursor-pointer ">
@@ -172,6 +173,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {nav ? (
+        <div className=" bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };
