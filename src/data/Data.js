@@ -100,7 +100,7 @@ export const discounts20 = {
 
       model: "Gold-Start Shoes 2022 ",
       p: "2QF-621XLP",
-      price: "$263",
+      price: "$299",
     },
     {
       image: sho1,
