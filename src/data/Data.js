@@ -158,7 +158,7 @@ export const discounts40 = {
       name: "ASUS laptop inspire 2016",
       model: "Notebook screen Z51-",
       p: "JHTBUK-6320",
-      price: "$409",
+      price: "$280",
     },
     {
       image: sho2,
