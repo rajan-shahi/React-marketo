@@ -144,7 +144,7 @@ export const discounts40 = {
 
       model: "ASUS laptop inspire 2016",
       p: "2QF-621XLP-1203",
-      price: "$630",
+      price: "$493",
     },
     {
       image: sho5,
