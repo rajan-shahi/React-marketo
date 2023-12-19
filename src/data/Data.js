@@ -120,7 +120,7 @@ export const discounts20 = {
       image: sho6,
       model: "Nepali-Magic-shoes 2023",
       p: "SlK 40k60",
-      price: "$163",
+      price: "$160",
     },
     {
       image: sho2,
