@@ -176,7 +176,7 @@ export const discounts40 = {
       image: sho1,
       model: "Notebook screen Z51-",
       p: "40klKPD45",
-      price: "$354",
+      price: "$351",
     },
   ],
 };
