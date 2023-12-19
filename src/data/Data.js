@@ -44,7 +44,7 @@ export const discounts30 = {
       image: sho2,
       model: "Branded Shoes 2023",
       p: "40klKPD45",
-      price: "$158",
+      price: "$138",
     },
   ],
 };
