@@ -19,14 +19,14 @@ export const discounts30 = {
       name: "Notebook",
       model: "Latest-Shoes 2022",
       p: "70 40k60",
-      price: "$465",
+      price: "$480",
     },
     {
       image: sho1,
       name: "Head Phones",
       model: "GoldStar-shoes 2023",
       p: "JHTBUK",
-      price: "$208",
+      price: "$266",
     },
     {
       image: sho4,
