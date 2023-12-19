@@ -151,7 +151,7 @@ export const discounts40 = {
       name: "Notebook",
       model: "Notebook screen Z51-",
       p: "70 PLZ 40k60",
-      price: "$500",
+      price: "$511",
     },
     {
       image: sho4,
