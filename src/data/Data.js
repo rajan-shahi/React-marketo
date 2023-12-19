@@ -132,7 +132,7 @@ export const discounts20 = {
       image: sho4,
       model: "Nike-Shoes-2023",
       p: "40klKPD45 plk",
-      price: "$293",
+      price: "$225",
     },
   ],
 };
