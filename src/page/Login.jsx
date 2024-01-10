@@ -16,7 +16,7 @@ const Login = () => {
             </span>
           </h2>
         </div>
-        <div className=" flex  md:px-4 flex-col md:gap-5  gap-6 justify-center items-center">
+        <form className=" flex  md:px-4 flex-col md:gap-5  gap-6 justify-center items-center">
           <div className=" flex gap-1 flex-col">
             <span className=" text-md text-gray-600">Email</span>
             <input
@@ -24,6 +24,7 @@ const Login = () => {
               className=" w-[350px] border  border-gray-400 outline-orange-400 px-3 md:py-1 py-2 rounded-lg  placeholder:text-sm"
               type="email"
               placeholder="Enter Your email"
+              required
             />
           </div>
           <div className=" flex gap-1 flex-col">
@@ -33,6 +34,7 @@ const Login = () => {
               className=" w-[350px] border  border-gray-400 outline-orange-400 px-3 md:py-1  py-2 rounded-lg  placeholder:text-sm"
               type="password"
               placeholder="Enter Your password"
+              required
             />
           </div>
           <div>
@@ -95,7 +97,7 @@ const Login = () => {
               </a>
             </h1>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const Copyright = () => {
       </div>
       <div>
         <Link to="navbar" spy={true} smooth={true} duration={500}>
-          <span  className=" cursor-pointer hover:text-orange-400">
+          <span className=" cursor-pointer hover:text-orange-400">
             <HiArrowUp size={30} />
           </span>
         </Link>
