@@ -46,35 +46,38 @@ const Footer = () => {
           <h2 className=" pb-6">
             17 Princess Road, London, Greater London NW1 8JR, UK
           </h2>
-     
-            <div className=" flex justify-center items-center gap-1 py-5  bg-gray-500 w-40     border-2 border-white hover:bg-green-400">
-            <a href="https://maps.google.com" target="-blank">
+
+          <div className=" flex justify-center items-center gap-1 py-5  bg-gray-500 w-40     border-2 border-white hover:bg-green-400">
+            <a
+              href="https://www.google.com/maps/place/Birendra+Chowk/@27.6987613,85.3712033,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1a364ddd0313:0x8ae668aef6f4d82e!8m2!3d27.6987613!4d85.3737782!16s%2Fg%2F1tl7m3n4?entry=ttu"
+              target="-blank"
+            >
               <button className="  text-xs  text-white font-bold">
                 View On Map
-              </button></a>
-              <span className=" flex items-center  text-white font-bold">
-                <FaMapMarkerAlt />
-              </span>
-            </div>
+              </button>
+            </a>
+            <span className=" flex items-center  text-white font-bold">
+              <FaMapMarkerAlt />
+            </span>
+          </div>
         </div>
         <div className=" flex">
-        <div className=" flex-1 flex flex-col gap-4">
-          <h1 className=" text-lg  text-black font-bold">Our Stores</h1>
-          <p>New York</p>
-          <p>London SF</p>
-          <p>Cockfosters BP</p>
-          <p>Los Angeles</p>
-          <p>Las Vegas Albarto</p>
-        </div>
-        <div className=" flex-1 flex flex-col gap-4">
-          <h2 className=" text-lg text-black font-bold">Quick Links</h2>
-          <p>Support Center</p>
-          <p>Term & Conditions</p>
-          <p>Shipping</p>
-          <p>Privacy Policy</p>
-          <p>Products Return</p>
-       
-        </div>
+          <div className=" flex-1 flex flex-col gap-4">
+            <h1 className=" text-lg  text-black font-bold">Our Stores</h1>
+            <p>New York</p>
+            <p>London SF</p>
+            <p>Cockfosters BP</p>
+            <p>Los Angeles</p>
+            <p>Las Vegas Albarto</p>
+          </div>
+          <div className=" flex-1 flex flex-col gap-4">
+            <h2 className=" text-lg text-black font-bold">Quick Links</h2>
+            <p>Support Center</p>
+            <p>Term & Conditions</p>
+            <p>Shipping</p>
+            <p>Privacy Policy</p>
+            <p>Products Return</p>
+          </div>
         </div>
         <div className=" flex-1 flex flex-col gap-4">
           <h1 className=" text-lg font-bold text-black">Subscribe</h1>
